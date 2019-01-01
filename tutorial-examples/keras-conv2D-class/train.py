@@ -1,11 +1,6 @@
 # USAGE
 # python train.py --dataset /media/yinyunjie/WD_HDD/dataSets/101_ObjectCategories
 
-import os
-import sys
-#sys.path.append(os.path.abspath(os.path.dirname(__file__) + '/' + '.'))
-# path = os.getcwd()
-# sys.path.append(os.path.abspath(path + '/' + '.'))
 
 import matplotlib
 matplotlib.use("Agg")
