@@ -1,0 +1,1 @@
+from .functional_model import depthwise_conv2d
