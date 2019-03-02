@@ -7,8 +7,8 @@ import os
 from keras.datasets import cifar100
 
 def convert():
-    train_data = ''
-    val_data = ''
+    train_data = '/media/yinyunjie/WD_HDD/dataSets/cifar100/train_imgs/train'
+    val_data = '/media/yinyunjie/WD_HDD/dataSets/cifar100/validation_imgs/validation'
 
     (X_train, y_train), (X_test, y_test) = cifar100.load_data(label_mode='fine')
 
@@ -32,7 +32,7 @@ def convert():
         if not os.path.exists(path):
             os.makedirs(path)
 
-        cv2.imwrite(path + '//' + '.jpg', x)
+        cv2.imwrite(path + '//' + str(i) + '.jpg', x)
 
 
 if __name__ == '__main__':
