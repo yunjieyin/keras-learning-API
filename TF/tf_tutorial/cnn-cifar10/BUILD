@@ -1,1 +1,77 @@
-IyBEZXNjcmlwdGlvbjoKIyBFeGFtcGxlIFRlbnNvckZsb3cgbW9kZWxzIGZvciBDSUZBUi0xMAoKbGljZW5zZXMoWyJub3RpY2UiXSkgICMgQXBhY2hlIDIuMAoKZXhwb3J0c19maWxlcyhbIkxJQ0VOU0UiXSkKCnB5X2xpYnJhcnkoCiAgICBuYW1lID0gImNpZmFyMTBfaW5wdXQiLAogICAgc3JjcyA9IFsiY2lmYXIxMF9pbnB1dC5weSJdLAogICAgc3Jjc192ZXJzaW9uID0gIlBZMkFORDMiLAogICAgdmlzaWJpbGl0eSA9IFsiLy90ZW5zb3JmbG93OmludGVybmFsIl0sCiAgICBkZXBzID0gWwogICAgICAgICIvL3RlbnNvcmZsb3c6dGVuc29yZmxvd19weSIsCiAgICBdLAopCgpweV90ZXN0KAogICAgbmFtZSA9ICJjaWZhcjEwX2lucHV0X3Rlc3QiLAogICAgc3JjcyA9IFsiY2lmYXIxMF9pbnB1dF90ZXN0LnB5Il0sCiAgICBzcmNzX3ZlcnNpb24gPSAiUFkyQU5EMyIsCiAgICBkZXBzID0gWwogICAgICAgICI6Y2lmYXIxMF9pbnB1dCIsCiAgICAgICAgIi8vdGVuc29yZmxvdzp0ZW5zb3JmbG93X3B5IiwKICAgICAgICAiLy90ZW5zb3JmbG93L3B5dGhvbjpmcmFtZXdvcmtfdGVzdF9saWIiLAogICAgICAgICIvL3RlbnNvcmZsb3cvcHl0aG9uOnBsYXRmb3JtX3Rlc3QiLAogICAgXSwKKQoKcHlfbGlicmFyeSgKICAgIG5hbWUgPSAiY2lmYXIxMCIsCiAgICBzcmNzID0gWyJjaWZhcjEwLnB5Il0sCiAgICBzcmNzX3ZlcnNpb24gPSAiUFkyQU5EMyIsCiAgICBkZXBzID0gWwogICAgICAgICI6Y2lmYXIxMF9pbnB1dCIsCiAgICAgICAgIi8vdGVuc29yZmxvdzp0ZW5zb3JmbG93X3B5IiwKICAgIF0sCikKCnB5X2JpbmFyeSgKICAgIG5hbWUgPSAiY2lmYXIxMF9ldmFsIiwKICAgIHNyY3MgPSBbCiAgICAgICAgImNpZmFyMTBfZXZhbC5weSIsCiAgICBdLAogICAgc3Jjc192ZXJzaW9uID0gIlBZMkFORDMiLAogICAgdmlzaWJpbGl0eSA9IFsiLy90ZW5zb3JmbG93Ol9fc3VicGFja2FnZXNfXyJdLAogICAgZGVwcyA9IFsKICAgICAgICAiOmNpZmFyMTAiLAogICAgXSwKKQoKcHlfYmluYXJ5KAogICAgbmFtZSA9ICJjaWZhcjEwX3RyYWluIiwKICAgIHNyY3MgPSBbCiAgICAgICAgImNpZmFyMTBfdHJhaW4ucHkiLAogICAgXSwKICAgIHNyY3NfdmVyc2lvbiA9ICJQWTJBTkQzIiwKICAgIHZpc2liaWxpdHkgPSBbIi8vdGVuc29yZmxvdzpfX3N1YnBhY2thZ2VzX18iXSwKICAgIGRlcHMgPSBbCiAgICAgICAgIjpjaWZhcjEwIiwKICAgIF0sCikKCnB5X2JpbmFyeSgKICAgIG5hbWUgPSAiY2lmYXIxMF9tdWx0aV9ncHVfdHJhaW4iLAogICAgc3JjcyA9IFsKICAgICAgICAiY2lmYXIxMF9tdWx0aV9ncHVfdHJhaW4ucHkiLAogICAgXSwKICAgIHNyY3NfdmVyc2lvbiA9ICJQWTJBTkQzIiwKICAgIHZpc2liaWxpdHkgPSBbIi8vdGVuc29yZmxvdzpfX3N1YnBhY2thZ2VzX18iXSwKICAgIGRlcHMgPSBbCiAgICAgICAgIjpjaWZhcjEwIiwKICAgIF0sCikKCmZpbGVncm91cCgKICAgIG5hbWUgPSAiYWxsX2ZpbGVzIiwKICAgIHNyY3MgPSBnbG9iKAogICAgICAgIFsiKiovKiJdLAogICAgICAgIGV4Y2x1ZGUgPSBbCiAgICAgICAgICAgICIqKi9NRVRBREFUQSIsCiAgICAgICAgICAgICIqKi9PV05FUlMiLAogICAgICAgIF0sCiAgICApLAogICAgdmlzaWJpbGl0eSA9IFsiLy90ZW5zb3JmbG93Ol9fc3VicGFja2FnZXNfXyJdLAopCg==
+# Description:
+# Example TensorFlow models for CIFAR-10
+licenses(["notice"])  # Apache 2.0
+exports_files(["LICENSE"])
+py_library(
+    name = "cifar10_input",
+    srcs = ["cifar10_input.py"],
+    srcs_version = "PY2AND3",
+    visibility = ["//tensorflow:internal"],
+    deps = [
+        "//tensorflow:tensorflow_py",
+    ],
+)
+py_test(
+    name = "cifar10_input_test",
+    srcs = ["cifar10_input_test.py"],
+    srcs_version = "PY2AND3",
+    deps = [
+        ":cifar10_input",
+        "//tensorflow:tensorflow_py",
+        "//tensorflow/python:framework_test_lib",
+        "//tensorflow/python:platform_test",
+    ],
+)
+py_library(
+    name = "cifar10",
+    srcs = ["cifar10.py"],
+    srcs_version = "PY2AND3",
+    deps = [
+        ":cifar10_input",
+        "//tensorflow:tensorflow_py",
+    ],
+)
+py_binary(
+    name = "cifar10_eval",
+    srcs = [
+        "cifar10_eval.py",
+    ],
+    srcs_version = "PY2AND3",
+    visibility = ["//tensorflow:__subpackages__"],
+    deps = [
+        ":cifar10",
+    ],
+)
+py_binary(
+    name = "cifar10_train",
+    srcs = [
+        "cifar10_train.py",
+    ],
+    srcs_version = "PY2AND3",
+    visibility = ["//tensorflow:__subpackages__"],
+    deps = [
+        ":cifar10",
+    ],
+)
+py_binary(
+    name = "cifar10_multi_gpu_train",
+    srcs = [
+        "cifar10_multi_gpu_train.py",
+    ],
+    srcs_version = "PY2AND3",
+    visibility = ["//tensorflow:__subpackages__"],
+    deps = [
+        ":cifar10",
+    ],
+)
+filegroup(
+    name = "all_files",
+    srcs = glob(
+        ["**/*"],
+        exclude = [
+            "**/METADATA",
+            "**/OWNERS",
+        ],
+    ),
+    visibility = ["//tensorflow:__subpackages__"],
+)

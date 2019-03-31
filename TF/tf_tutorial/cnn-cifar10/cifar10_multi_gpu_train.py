@@ -1,1 +1,224 @@
-IyBDb3B5cmlnaHQgMjAxNSBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLgojCiMgTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlICJMaWNlbnNlIik7CiMgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgojIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAojCiMgICAgIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMAojCiMgVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQojIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuICJBUyBJUyIgQkFTSVMsCiMgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiMgU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAojIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKIiIiQSBiaW5hcnkgdG8gdHJhaW4gQ0lGQVItMTAgdXNpbmcgbXVsdGlwbGUgR1BVJ3Mgd2l0aCBzeW5jaHJvbm91cyB1cGRhdGVzLgoKQWNjdXJhY3k6CmNpZmFyMTBfbXVsdGlfZ3B1X3RyYWluLnB5IGFjaGlldmVzIH44NiUgYWNjdXJhY3kgYWZ0ZXIgMTAwSyBzdGVwcyAoMjU2CmVwb2NocyBvZiBkYXRhKSBhcyBqdWRnZWQgYnkgY2lmYXIxMF9ldmFsLnB5LgoKU3BlZWQ6IFdpdGggYmF0Y2hfc2l6ZSAxMjguCgpTeXN0ZW0gICAgICAgIHwgU3RlcCBUaW1lIChzZWMvYmF0Y2gpICB8ICAgICBBY2N1cmFjeQotLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLQoxIFRlc2xhIEsyMG0gIHwgMC4zNS0wLjYwICAgICAgICAgICAgICB8IH44NiUgYXQgNjBLIHN0ZXBzICAoNSBob3VycykKMSBUZXNsYSBLNDBtICB8IDAuMjUtMC4zNSAgICAgICAgICAgICAgfCB+ODYlIGF0IDEwMEsgc3RlcHMgKDQgaG91cnMpCjIgVGVzbGEgSzIwbSAgfCAwLjEzLTAuMjAgICAgICAgICAgICAgIHwgfjg0JSBhdCAzMEsgc3RlcHMgICgyLjUgaG91cnMpCjMgVGVzbGEgSzIwbSAgfCAwLjEzLTAuMTggICAgICAgICAgICAgIHwgfjg0JSBhdCAzMEsgc3RlcHMKNCBUZXNsYSBLMjBtICB8IH4wLjEwICAgICAgICAgICAgICAgICAgfCB+ODQlIGF0IDMwSyBzdGVwcwoKVXNhZ2U6ClBsZWFzZSBzZWUgdGhlIHR1dG9yaWFsIGFuZCB3ZWJzaXRlIGZvciBob3cgdG8gZG93bmxvYWQgdGhlIENJRkFSLTEwCmRhdGEgc2V0LCBjb21waWxlIHRoZSBwcm9ncmFtIGFuZCB0cmFpbiB0aGUgbW9kZWwuCgpodHRwOi8vdGVuc29yZmxvdy5vcmcvdHV0b3JpYWxzL2RlZXBfY25uLwoiIiIKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBhYnNvbHV0ZV9pbXBvcnQKZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBkaXZpc2lvbgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IHByaW50X2Z1bmN0aW9uCgpmcm9tIGRhdGV0aW1lIGltcG9ydCBkYXRldGltZQppbXBvcnQgb3MucGF0aAppbXBvcnQgcmUKaW1wb3J0IHRpbWUKCiMgcHlsaW50OiBkaXNhYmxlPXVudXNlZC1pbXBvcnQsZy1iYWQtaW1wb3J0LW9yZGVyCmltcG9ydCB0ZW5zb3JmbG93LnB5dGhvbi5wbGF0Zm9ybQpmcm9tIHRlbnNvcmZsb3cucHl0aG9uLnBsYXRmb3JtIGltcG9ydCBnZmlsZQppbXBvcnQgbnVtcHkgYXMgbnAKZnJvbSBzaXgubW92ZXMgaW1wb3J0IHhyYW5nZSAgIyBweWxpbnQ6IGRpc2FibGU9cmVkZWZpbmVkLWJ1aWx0aW4KaW1wb3J0IHRlbnNvcmZsb3cgYXMgdGYKZnJvbSB0ZW5zb3JmbG93Lm1vZGVscy5pbWFnZS5jaWZhcjEwIGltcG9ydCBjaWZhcjEwCiMgcHlsaW50OiBkaXNhYmxlPXVudXNlZC1pbXBvcnQsZy1iYWQtaW1wb3J0LW9yZGVyCgpGTEFHUyA9IHRmLmFwcC5mbGFncy5GTEFHUwoKdGYuYXBwLmZsYWdzLkRFRklORV9zdHJpbmcoJ3RyYWluX2RpcicsICcvdG1wL2NpZmFyMTBfdHJhaW4nLAogICAgICAgICAgICAgICAgICAgICAgICAgICAiIiJEaXJlY3Rvcnkgd2hlcmUgdG8gd3JpdGUgZXZlbnQgbG9ncyAiIiIKICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIiYW5kIGNoZWNrcG9pbnQuIiIiKQp0Zi5hcHAuZmxhZ3MuREVGSU5FX2ludGVnZXIoJ21heF9zdGVwcycsIDEwMDAwMDAsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiJOdW1iZXIgb2YgYmF0Y2hlcyB0byBydW4uIiIiKQp0Zi5hcHAuZmxhZ3MuREVGSU5FX2ludGVnZXIoJ251bV9ncHVzJywgMSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIiIkhvdyBtYW55IEdQVXMgdG8gdXNlLiIiIikKdGYuYXBwLmZsYWdzLkRFRklORV9ib29sZWFuKCdsb2dfZGV2aWNlX3BsYWNlbWVudCcsIEZhbHNlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIiV2hldGhlciB0byBsb2cgZGV2aWNlIHBsYWNlbWVudC4iIiIpCgoKZGVmIHRvd2VyX2xvc3Moc2NvcGUpOgogICIiIkNhbGN1bGF0ZSB0aGUgdG90YWwgbG9zcyBvbiBhIHNpbmdsZSB0b3dlciBydW5uaW5nIHRoZSBDSUZBUiBtb2RlbC4KCiAgQXJnczoKICAgIHNjb3BlOiB1bmlxdWUgcHJlZml4IHN0cmluZyBpZGVudGlmeWluZyB0aGUgQ0lGQVIgdG93ZXIsIGUuZy4gJ3Rvd2VyXzAnCgogIFJldHVybnM6CiAgICAgVGVuc29yIG9mIHNoYXBlIFtdIGNvbnRhaW5pbmcgdGhlIHRvdGFsIGxvc3MgZm9yIGEgYmF0Y2ggb2YgZGF0YQogICIiIgogICMgR2V0IGltYWdlcyBhbmQgbGFiZWxzIGZvciBDSUZBUi0xMC4KICBpbWFnZXMsIGxhYmVscyA9IGNpZmFyMTAuZGlzdG9ydGVkX2lucHV0cygpCgogICMgQnVpbGQgaW5mZXJlbmNlIEdyYXBoLgogIGxvZ2l0cyA9IGNpZmFyMTAuaW5mZXJlbmNlKGltYWdlcykKCiAgIyBCdWlsZCB0aGUgcG9ydGlvbiBvZiB0aGUgR3JhcGggY2FsY3VsYXRpbmcgdGhlIGxvc3Nlcy4gTm90ZSB0aGF0IHdlIHdpbGwKICAjIGFzc2VtYmxlIHRoZSB0b3RhbF9sb3NzIHVzaW5nIGEgY3VzdG9tIGZ1bmN0aW9uIGJlbG93LgogIF8gPSBjaWZhcjEwLmxvc3MobG9naXRzLCBsYWJlbHMpCgogICMgQXNzZW1ibGUgYWxsIG9mIHRoZSBsb3NzZXMgZm9yIHRoZSBjdXJyZW50IHRvd2VyIG9ubHkuCiAgbG9zc2VzID0gdGYuZ2V0X2NvbGxlY3Rpb24oJ2xvc3NlcycsIHNjb3BlKQoKICAjIENhbGN1bGF0ZSB0aGUgdG90YWwgbG9zcyBmb3IgdGhlIGN1cnJlbnQgdG93ZXIuCiAgdG90YWxfbG9zcyA9IHRmLmFkZF9uKGxvc3NlcywgbmFtZT0ndG90YWxfbG9zcycpCgogICMgQ29tcHV0ZSB0aGUgbW92aW5nIGF2ZXJhZ2Ugb2YgYWxsIGluZGl2aWR1YWwgbG9zc2VzIGFuZCB0aGUgdG90YWwgbG9zcy4KICBsb3NzX2F2ZXJhZ2VzID0gdGYudHJhaW4uRXhwb25lbnRpYWxNb3ZpbmdBdmVyYWdlKDAuOSwgbmFtZT0nYXZnJykKICBsb3NzX2F2ZXJhZ2VzX29wID0gbG9zc19hdmVyYWdlcy5hcHBseShsb3NzZXMgKyBbdG90YWxfbG9zc10pCgogICMgQXR0YWNoIGEgc2NhbGFyIHN1bW1hcnkgdG8gYWxsIGluZGl2aWR1YWwgbG9zc2VzIGFuZCB0aGUgdG90YWwgbG9zczsgZG8gdGhlCiAgIyBzYW1lIGZvciB0aGUgYXZlcmFnZWQgdmVyc2lvbiBvZiB0aGUgbG9zc2VzLgogIGZvciBsIGluIGxvc3NlcyArIFt0b3RhbF9sb3NzXToKICAgICMgUmVtb3ZlICd0b3dlcl9bMC05XS8nIGZyb20gdGhlIG5hbWUgaW4gY2FzZSB0aGlzIGlzIGEgbXVsdGktR1BVIHRyYWluaW5nCiAgICAjIHNlc3Npb24uIFRoaXMgaGVscHMgdGhlIGNsYXJpdHkgb2YgcHJlc2VudGF0aW9uIG9uIHRlbnNvcmJvYXJkLgogICAgbG9zc19uYW1lID0gcmUuc3ViKCclc19bMC05XSovJyAlIGNpZmFyMTAuVE9XRVJfTkFNRSwgJycsIGwub3AubmFtZSkKICAgICMgTmFtZSBlYWNoIGxvc3MgYXMgJyhyYXcpJyBhbmQgbmFtZSB0aGUgbW92aW5nIGF2ZXJhZ2UgdmVyc2lvbiBvZiB0aGUgbG9zcwogICAgIyBhcyB0aGUgb3JpZ2luYWwgbG9zcyBuYW1lLgogICAgdGYuc2NhbGFyX3N1bW1hcnkobG9zc19uYW1lICsnIChyYXcpJywgbCkKICAgIHRmLnNjYWxhcl9zdW1tYXJ5KGxvc3NfbmFtZSwgbG9zc19hdmVyYWdlcy5hdmVyYWdlKGwpKQoKICB3aXRoIHRmLmNvbnRyb2xfZGVwZW5kZW5jaWVzKFtsb3NzX2F2ZXJhZ2VzX29wXSk6CiAgICB0b3RhbF9sb3NzID0gdGYuaWRlbnRpdHkodG90YWxfbG9zcykKICByZXR1cm4gdG90YWxfbG9zcwoKCmRlZiBhdmVyYWdlX2dyYWRpZW50cyh0b3dlcl9ncmFkcyk6CiAgIiIiQ2FsY3VsYXRlIHRoZSBhdmVyYWdlIGdyYWRpZW50IGZvciBlYWNoIHNoYXJlZCB2YXJpYWJsZSBhY3Jvc3MgYWxsIHRvd2Vycy4KCiAgTm90ZSB0aGF0IHRoaXMgZnVuY3Rpb24gcHJvdmlkZXMgYSBzeW5jaHJvbml6YXRpb24gcG9pbnQgYWNyb3NzIGFsbCB0b3dlcnMuCgogIEFyZ3M6CiAgICB0b3dlcl9ncmFkczogTGlzdCBvZiBsaXN0cyBvZiAoZ3JhZGllbnQsIHZhcmlhYmxlKSB0dXBsZXMuIFRoZSBvdXRlciBsaXN0CiAgICAgIGlzIG92ZXIgaW5kaXZpZHVhbCBncmFkaWVudHMuIFRoZSBpbm5lciBsaXN0IGlzIG92ZXIgdGhlIGdyYWRpZW50CiAgICAgIGNhbGN1bGF0aW9uIGZvciBlYWNoIHRvd2VyLgogIFJldHVybnM6CiAgICAgTGlzdCBvZiBwYWlycyBvZiAoZ3JhZGllbnQsIHZhcmlhYmxlKSB3aGVyZSB0aGUgZ3JhZGllbnQgaGFzIGJlZW4gYXZlcmFnZWQKICAgICBhY3Jvc3MgYWxsIHRvd2Vycy4KICAiIiIKICBhdmVyYWdlX2dyYWRzID0gW10KICBmb3IgZ3JhZF9hbmRfdmFycyBpbiB6aXAoKnRvd2VyX2dyYWRzKToKICAgICMgTm90ZSB0aGF0IGVhY2ggZ3JhZF9hbmRfdmFycyBsb29rcyBsaWtlIHRoZSBmb2xsb3dpbmc6CiAgICAjICAgKChncmFkMF9ncHUwLCB2YXIwX2dwdTApLCAuLi4gLCAoZ3JhZDBfZ3B1TiwgdmFyMF9ncHVOKSkKICAgIGdyYWRzID0gW10KICAgIGZvciBnLCBfIGluIGdyYWRfYW5kX3ZhcnM6CiAgICAgICMgQWRkIDAgZGltZW5zaW9uIHRvIHRoZSBncmFkaWVudHMgdG8gcmVwcmVzZW50IHRoZSB0b3dlci4KICAgICAgZXhwYW5kZWRfZyA9IHRmLmV4cGFuZF9kaW1zKGcsIDApCgogICAgICAjIEFwcGVuZCBvbiBhICd0b3dlcicgZGltZW5zaW9uIHdoaWNoIHdlIHdpbGwgYXZlcmFnZSBvdmVyIGJlbG93LgogICAgICBncmFkcy5hcHBlbmQoZXhwYW5kZWRfZykKCiAgICAjIEF2ZXJhZ2Ugb3ZlciB0aGUgJ3Rvd2VyJyBkaW1lbnNpb24uCiAgICBncmFkID0gdGYuY29uY2F0KDAsIGdyYWRzKQogICAgZ3JhZCA9IHRmLnJlZHVjZV9tZWFuKGdyYWQsIDApCgogICAgIyBLZWVwIGluIG1pbmQgdGhhdCB0aGUgVmFyaWFibGVzIGFyZSByZWR1bmRhbnQgYmVjYXVzZSB0aGV5IGFyZSBzaGFyZWQKICAgICMgYWNyb3NzIHRvd2Vycy4gU28gLi4gd2Ugd2lsbCBqdXN0IHJldHVybiB0aGUgZmlyc3QgdG93ZXIncyBwb2ludGVyIHRvCiAgICAjIHRoZSBWYXJpYWJsZS4KICAgIHYgPSBncmFkX2FuZF92YXJzWzBdWzFdCiAgICBncmFkX2FuZF92YXIgPSAoZ3JhZCwgdikKICAgIGF2ZXJhZ2VfZ3JhZHMuYXBwZW5kKGdyYWRfYW5kX3ZhcikKICByZXR1cm4gYXZlcmFnZV9ncmFkcwoKCmRlZiB0cmFpbigpOgogICIiIlRyYWluIENJRkFSLTEwIGZvciBhIG51bWJlciBvZiBzdGVwcy4iIiIKICB3aXRoIHRmLkdyYXBoKCkuYXNfZGVmYXVsdCgpLCB0Zi5kZXZpY2UoJy9jcHU6MCcpOgogICAgIyBDcmVhdGUgYSB2YXJpYWJsZSB0byBjb3VudCB0aGUgbnVtYmVyIG9mIHRyYWluKCkgY2FsbHMuIFRoaXMgZXF1YWxzIHRoZQogICAgIyBudW1iZXIgb2YgYmF0Y2hlcyBwcm9jZXNzZWQgKiBGTEFHUy5udW1fZ3B1cy4KICAgIGdsb2JhbF9zdGVwID0gdGYuZ2V0X3ZhcmlhYmxlKAogICAgICAgICdnbG9iYWxfc3RlcCcsIFtdLAogICAgICAgIGluaXRpYWxpemVyPXRmLmNvbnN0YW50X2luaXRpYWxpemVyKDApLCB0cmFpbmFibGU9RmFsc2UpCgogICAgIyBDYWxjdWxhdGUgdGhlIGxlYXJuaW5nIHJhdGUgc2NoZWR1bGUuCiAgICBudW1fYmF0Y2hlc19wZXJfZXBvY2ggPSAoY2lmYXIxMC5OVU1fRVhBTVBMRVNfUEVSX0VQT0NIX0ZPUl9UUkFJTiAvCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgRkxBR1MuYmF0Y2hfc2l6ZSkKICAgIGRlY2F5X3N0ZXBzID0gaW50KG51bV9iYXRjaGVzX3Blcl9lcG9jaCAqIGNpZmFyMTAuTlVNX0VQT0NIU19QRVJfREVDQVkpCgogICAgIyBEZWNheSB0aGUgbGVhcm5pbmcgcmF0ZSBleHBvbmVudGlhbGx5IGJhc2VkIG9uIHRoZSBudW1iZXIgb2Ygc3RlcHMuCiAgICBsciA9IHRmLnRyYWluLmV4cG9uZW50aWFsX2RlY2F5KGNpZmFyMTAuSU5JVElBTF9MRUFSTklOR19SQVRFLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBnbG9iYWxfc3RlcCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVjYXlfc3RlcHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNpZmFyMTAuTEVBUk5JTkdfUkFURV9ERUNBWV9GQUNUT1IsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YWlyY2FzZT1UcnVlKQoKICAgICMgQ3JlYXRlIGFuIG9wdGltaXplciB0aGF0IHBlcmZvcm1zIGdyYWRpZW50IGRlc2NlbnQuCiAgICBvcHQgPSB0Zi50cmFpbi5HcmFkaWVudERlc2NlbnRPcHRpbWl6ZXIobHIpCgogICAgIyBDYWxjdWxhdGUgdGhlIGdyYWRpZW50cyBmb3IgZWFjaCBtb2RlbCB0b3dlci4KICAgIHRvd2VyX2dyYWRzID0gW10KICAgIGZvciBpIGluIHhyYW5nZShGTEFHUy5udW1fZ3B1cyk6CiAgICAgIHdpdGggdGYuZGV2aWNlKCcvZ3B1OiVkJyAlIGkpOgogICAgICAgIHdpdGggdGYubmFtZV9zY29wZSgnJXNfJWQnICUgKGNpZmFyMTAuVE9XRVJfTkFNRSwgaSkpIGFzIHNjb3BlOgogICAgICAgICAgIyBDYWxjdWxhdGUgdGhlIGxvc3MgZm9yIG9uZSB0b3dlciBvZiB0aGUgQ0lGQVIgbW9kZWwuIFRoaXMgZnVuY3Rpb24KICAgICAgICAgICMgY29uc3RydWN0cyB0aGUgZW50aXJlIENJRkFSIG1vZGVsIGJ1dCBzaGFyZXMgdGhlIHZhcmlhYmxlcyBhY3Jvc3MKICAgICAgICAgICMgYWxsIHRvd2Vycy4KICAgICAgICAgIGxvc3MgPSB0b3dlcl9sb3NzKHNjb3BlKQoKICAgICAgICAgICMgUmV1c2UgdmFyaWFibGVzIGZvciB0aGUgbmV4dCB0b3dlci4KICAgICAgICAgIHRmLmdldF92YXJpYWJsZV9zY29wZSgpLnJldXNlX3ZhcmlhYmxlcygpCgogICAgICAgICAgIyBSZXRhaW4gdGhlIHN1bW1hcmllcyBmcm9tIHRoZSBmaW5hbCB0b3dlci4KICAgICAgICAgIHN1bW1hcmllcyA9IHRmLmdldF9jb2xsZWN0aW9uKHRmLkdyYXBoS2V5cy5TVU1NQVJJRVMsIHNjb3BlKQoKICAgICAgICAgICMgQ2FsY3VsYXRlIHRoZSBncmFkaWVudHMgZm9yIHRoZSBiYXRjaCBvZiBkYXRhIG9uIHRoaXMgQ0lGQVIgdG93ZXIuCiAgICAgICAgICBncmFkcyA9IG9wdC5jb21wdXRlX2dyYWRpZW50cyhsb3NzKQoKICAgICAgICAgICMgS2VlcCB0cmFjayBvZiB0aGUgZ3JhZGllbnRzIGFjcm9zcyBhbGwgdG93ZXJzLgogICAgICAgICAgdG93ZXJfZ3JhZHMuYXBwZW5kKGdyYWRzKQoKICAgICMgV2UgbXVzdCBjYWxjdWxhdGUgdGhlIG1lYW4gb2YgZWFjaCBncmFkaWVudC4gTm90ZSB0aGF0IHRoaXMgaXMgdGhlCiAgICAjIHN5bmNocm9uaXphdGlvbiBwb2ludCBhY3Jvc3MgYWxsIHRvd2Vycy4KICAgIGdyYWRzID0gYXZlcmFnZV9ncmFkaWVudHModG93ZXJfZ3JhZHMpCgogICAgIyBBZGQgYSBzdW1tYXJ5IHRvIHRyYWNrIHRoZSBsZWFybmluZyByYXRlLgogICAgc3VtbWFyaWVzLmFwcGVuZCh0Zi5zY2FsYXJfc3VtbWFyeSgnbGVhcm5pbmdfcmF0ZScsIGxyKSkKCiAgICAjIEFkZCBoaXN0b2dyYW1zIGZvciBncmFkaWVudHMuCiAgICBmb3IgZ3JhZCwgdmFyIGluIGdyYWRzOgogICAgICBpZiBncmFkOgogICAgICAgIHN1bW1hcmllcy5hcHBlbmQoCiAgICAgICAgICAgIHRmLmhpc3RvZ3JhbV9zdW1tYXJ5KHZhci5vcC5uYW1lICsgJy9ncmFkaWVudHMnLCBncmFkKSkKCiAgICAjIEFwcGx5IHRoZSBncmFkaWVudHMgdG8gYWRqdXN0IHRoZSBzaGFyZWQgdmFyaWFibGVzLgogICAgYXBwbHlfZ3JhZGllbnRfb3AgPSBvcHQuYXBwbHlfZ3JhZGllbnRzKGdyYWRzLCBnbG9iYWxfc3RlcD1nbG9iYWxfc3RlcCkKCiAgICAjIEFkZCBoaXN0b2dyYW1zIGZvciB0cmFpbmFibGUgdmFyaWFibGVzLgogICAgZm9yIHZhciBpbiB0Zi50cmFpbmFibGVfdmFyaWFibGVzKCk6CiAgICAgIHN1bW1hcmllcy5hcHBlbmQodGYuaGlzdG9ncmFtX3N1bW1hcnkodmFyLm9wLm5hbWUsIHZhcikpCgogICAgIyBUcmFjayB0aGUgbW92aW5nIGF2ZXJhZ2VzIG9mIGFsbCB0cmFpbmFibGUgdmFyaWFibGVzLgogICAgdmFyaWFibGVfYXZlcmFnZXMgPSB0Zi50cmFpbi5FeHBvbmVudGlhbE1vdmluZ0F2ZXJhZ2UoCiAgICAgICAgY2lmYXIxMC5NT1ZJTkdfQVZFUkFHRV9ERUNBWSwgZ2xvYmFsX3N0ZXApCiAgICB2YXJpYWJsZXNfYXZlcmFnZXNfb3AgPSB2YXJpYWJsZV9hdmVyYWdlcy5hcHBseSh0Zi50cmFpbmFibGVfdmFyaWFibGVzKCkpCgogICAgIyBHcm91cCBhbGwgdXBkYXRlcyB0byBpbnRvIGEgc2luZ2xlIHRyYWluIG9wLgogICAgdHJhaW5fb3AgPSB0Zi5ncm91cChhcHBseV9ncmFkaWVudF9vcCwgdmFyaWFibGVzX2F2ZXJhZ2VzX29wKQoKICAgICMgQ3JlYXRlIGEgc2F2ZXIuCiAgICBzYXZlciA9IHRmLnRyYWluLlNhdmVyKHRmLmFsbF92YXJpYWJsZXMoKSkKCiAgICAjIEJ1aWxkIHRoZSBzdW1tYXJ5IG9wZXJhdGlvbiBmcm9tIHRoZSBsYXN0IHRvd2VyIHN1bW1hcmllcy4KICAgIHN1bW1hcnlfb3AgPSB0Zi5tZXJnZV9zdW1tYXJ5KHN1bW1hcmllcykKCiAgICAjIEJ1aWxkIGFuIGluaXRpYWxpemF0aW9uIG9wZXJhdGlvbiB0byBydW4gYmVsb3cuCiAgICBpbml0ID0gdGYuaW5pdGlhbGl6ZV9hbGxfdmFyaWFibGVzKCkKCiAgICAjIFN0YXJ0IHJ1bm5pbmcgb3BlcmF0aW9ucyBvbiB0aGUgR3JhcGguIGFsbG93X3NvZnRfcGxhY2VtZW50IG11c3QgYmUgc2V0IHRvCiAgICAjIFRydWUgdG8gYnVpbGQgdG93ZXJzIG9uIEdQVSwgYXMgc29tZSBvZiB0aGUgb3BzIGRvIG5vdCBoYXZlIEdQVQogICAgIyBpbXBsZW1lbnRhdGlvbnMuCiAgICBzZXNzID0gdGYuU2Vzc2lvbihjb25maWc9dGYuQ29uZmlnUHJvdG8oCiAgICAgICAgYWxsb3dfc29mdF9wbGFjZW1lbnQ9VHJ1ZSwKICAgICAgICBsb2dfZGV2aWNlX3BsYWNlbWVudD1GTEFHUy5sb2dfZGV2aWNlX3BsYWNlbWVudCkpCiAgICBzZXNzLnJ1bihpbml0KQoKICAgICMgU3RhcnQgdGhlIHF1ZXVlIHJ1bm5lcnMuCiAgICB0Zi50cmFpbi5zdGFydF9xdWV1ZV9ydW5uZXJzKHNlc3M9c2VzcykKCiAgICBzdW1tYXJ5X3dyaXRlciA9IHRmLnRyYWluLlN1bW1hcnlXcml0ZXIoRkxBR1MudHJhaW5fZGlyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdyYXBoX2RlZj1zZXNzLmdyYXBoX2RlZikKCiAgICBmb3Igc3RlcCBpbiB4cmFuZ2UoRkxBR1MubWF4X3N0ZXBzKToKICAgICAgc3RhcnRfdGltZSA9IHRpbWUudGltZSgpCiAgICAgIF8sIGxvc3NfdmFsdWUgPSBzZXNzLnJ1bihbdHJhaW5fb3AsIGxvc3NdKQogICAgICBkdXJhdGlvbiA9IHRpbWUudGltZSgpIC0gc3RhcnRfdGltZQoKICAgICAgYXNzZXJ0IG5vdCBucC5pc25hbihsb3NzX3ZhbHVlKSwgJ01vZGVsIGRpdmVyZ2VkIHdpdGggbG9zcyA9IE5hTicKCiAgICAgIGlmIHN0ZXAgJSAxMCA9PSAwOgogICAgICAgIG51bV9leGFtcGxlc19wZXJfc3RlcCA9IEZMQUdTLmJhdGNoX3NpemUgKiBGTEFHUy5udW1fZ3B1cwogICAgICAgIGV4YW1wbGVzX3Blcl9zZWMgPSBudW1fZXhhbXBsZXNfcGVyX3N0ZXAgLyBkdXJhdGlvbgogICAgICAgIHNlY19wZXJfYmF0Y2ggPSBkdXJhdGlvbiAvIEZMQUdTLm51bV9ncHVzCgogICAgICAgIGZvcm1hdF9zdHIgPSAoJyVzOiBzdGVwICVkLCBsb3NzID0gJS4yZiAoJS4xZiBleGFtcGxlcy9zZWM7ICUuM2YgJwogICAgICAgICAgICAgICAgICAgICAgJ3NlYy9iYXRjaCknKQogICAgICAgIHByaW50IChmb3JtYXRfc3RyICUgKGRhdGV0aW1lLm5vdygpLCBzdGVwLCBsb3NzX3ZhbHVlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIGV4YW1wbGVzX3Blcl9zZWMsIHNlY19wZXJfYmF0Y2gpKQoKICAgICAgaWYgc3RlcCAlIDEwMCA9PSAwOgogICAgICAgIHN1bW1hcnlfc3RyID0gc2Vzcy5ydW4oc3VtbWFyeV9vcCkKICAgICAgICBzdW1tYXJ5X3dyaXRlci5hZGRfc3VtbWFyeShzdW1tYXJ5X3N0ciwgc3RlcCkKCiAgICAgICMgU2F2ZSB0aGUgbW9kZWwgY2hlY2twb2ludCBwZXJpb2RpY2FsbHkuCiAgICAgIGlmIHN0ZXAgJSAxMDAwID09IDAgb3IgKHN0ZXAgKyAxKSA9PSBGTEFHUy5tYXhfc3RlcHM6CiAgICAgICAgY2hlY2twb2ludF9wYXRoID0gb3MucGF0aC5qb2luKEZMQUdTLnRyYWluX2RpciwgJ21vZGVsLmNrcHQnKQogICAgICAgIHNhdmVyLnNhdmUoc2VzcywgY2hlY2twb2ludF9wYXRoLCBnbG9iYWxfc3RlcD1zdGVwKQoKCmRlZiBtYWluKGFyZ3Y9Tm9uZSk6ICAjIHB5bGludDogZGlzYWJsZT11bnVzZWQtYXJndW1lbnQKICBjaWZhcjEwLm1heWJlX2Rvd25sb2FkX2FuZF9leHRyYWN0KCkKICBpZiBnZmlsZS5FeGlzdHMoRkxBR1MudHJhaW5fZGlyKToKICAgIGdmaWxlLkRlbGV0ZVJlY3Vyc2l2ZWx5KEZMQUdTLnRyYWluX2RpcikKICBnZmlsZS5NYWtlRGlycyhGTEFHUy50cmFpbl9kaXIpCiAgdHJhaW4oKQoKCmlmIF9fbmFtZV9fID09ICdfX21haW5fXyc6CiAgdGYuYXBwLnJ1bigpCg==
+# Copyright 2015 Google Inc. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+"""A binary to train CIFAR-10 using multiple GPU's with synchronous updates.
+Accuracy:
+cifar10_multi_gpu_train.py achieves ~86% accuracy after 100K steps (256
+epochs of data) as judged by cifar10_eval.py.
+Speed: With batch_size 128.
+System        | Step Time (sec/batch)  |     Accuracy
+--------------------------------------------------------------------
+1 Tesla K20m  | 0.35-0.60              | ~86% at 60K steps  (5 hours)
+1 Tesla K40m  | 0.25-0.35              | ~86% at 100K steps (4 hours)
+2 Tesla K20m  | 0.13-0.20              | ~84% at 30K steps  (2.5 hours)
+3 Tesla K20m  | 0.13-0.18              | ~84% at 30K steps
+4 Tesla K20m  | ~0.10                  | ~84% at 30K steps
+Usage:
+Please see the tutorial and website for how to download the CIFAR-10
+data set, compile the program and train the model.
+http://tensorflow.org/tutorials/deep_cnn/
+"""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from datetime import datetime
+import os.path
+import re
+import time
+# pylint: disable=unused-import,g-bad-import-order
+import tensorflow.python.platform
+from tensorflow.python.platform import gfile
+import numpy as np
+from six.moves import xrange  # pylint: disable=redefined-builtin
+import tensorflow as tf
+from tensorflow.models.image.cifar10 import cifar10
+# pylint: disable=unused-import,g-bad-import-order
+FLAGS = tf.app.flags.FLAGS
+tf.app.flags.DEFINE_string('train_dir', '/tmp/cifar10_train',
+                           """Directory where to write event logs """
+                           """and checkpoint.""")
+tf.app.flags.DEFINE_integer('max_steps', 1000000,
+                            """Number of batches to run.""")
+tf.app.flags.DEFINE_integer('num_gpus', 1,
+                            """How many GPUs to use.""")
+tf.app.flags.DEFINE_boolean('log_device_placement', False,
+                            """Whether to log device placement.""")
+def tower_loss(scope):
+  """Calculate the total loss on a single tower running the CIFAR model.
+  Args:
+    scope: unique prefix string identifying the CIFAR tower, e.g. 'tower_0'
+  Returns:
+     Tensor of shape [] containing the total loss for a batch of data
+  """
+  # Get images and labels for CIFAR-10.
+  images, labels = cifar10.distorted_inputs()
+  # Build inference Graph.
+  logits = cifar10.inference(images)
+  # Build the portion of the Graph calculating the losses. Note that we will
+  # assemble the total_loss using a custom function below.
+  _ = cifar10.loss(logits, labels)
+  # Assemble all of the losses for the current tower only.
+  losses = tf.get_collection('losses', scope)
+  # Calculate the total loss for the current tower.
+  total_loss = tf.add_n(losses, name='total_loss')
+  # Compute the moving average of all individual losses and the total loss.
+  loss_averages = tf.train.ExponentialMovingAverage(0.9, name='avg')
+  loss_averages_op = loss_averages.apply(losses + [total_loss])
+  # Attach a scalar summary to all individual losses and the total loss; do the
+  # same for the averaged version of the losses.
+  for l in losses + [total_loss]:
+    # Remove 'tower_[0-9]/' from the name in case this is a multi-GPU training
+    # session. This helps the clarity of presentation on tensorboard.
+    loss_name = re.sub('%s_[0-9]*/' % cifar10.TOWER_NAME, '', l.op.name)
+    # Name each loss as '(raw)' and name the moving average version of the loss
+    # as the original loss name.
+    tf.scalar_summary(loss_name +' (raw)', l)
+    tf.scalar_summary(loss_name, loss_averages.average(l))
+  with tf.control_dependencies([loss_averages_op]):
+    total_loss = tf.identity(total_loss)
+  return total_loss
+def average_gradients(tower_grads):
+  """Calculate the average gradient for each shared variable across all towers.
+  Note that this function provides a synchronization point across all towers.
+  Args:
+    tower_grads: List of lists of (gradient, variable) tuples. The outer list
+      is over individual gradients. The inner list is over the gradient
+      calculation for each tower.
+  Returns:
+     List of pairs of (gradient, variable) where the gradient has been averaged
+     across all towers.
+  """
+  average_grads = []
+  for grad_and_vars in zip(*tower_grads):
+    # Note that each grad_and_vars looks like the following:
+    #   ((grad0_gpu0, var0_gpu0), ... , (grad0_gpuN, var0_gpuN))
+    grads = []
+    for g, _ in grad_and_vars:
+      # Add 0 dimension to the gradients to represent the tower.
+      expanded_g = tf.expand_dims(g, 0)
+      # Append on a 'tower' dimension which we will average over below.
+      grads.append(expanded_g)
+    # Average over the 'tower' dimension.
+    grad = tf.concat(0, grads)
+    grad = tf.reduce_mean(grad, 0)
+    # Keep in mind that the Variables are redundant because they are shared
+    # across towers. So .. we will just return the first tower's pointer to
+    # the Variable.
+    v = grad_and_vars[0][1]
+    grad_and_var = (grad, v)
+    average_grads.append(grad_and_var)
+  return average_grads
+def train():
+  """Train CIFAR-10 for a number of steps."""
+  with tf.Graph().as_default(), tf.device('/cpu:0'):
+    # Create a variable to count the number of train() calls. This equals the
+    # number of batches processed * FLAGS.num_gpus.
+    global_step = tf.get_variable(
+        'global_step', [],
+        initializer=tf.constant_initializer(0), trainable=False)
+    # Calculate the learning rate schedule.
+    num_batches_per_epoch = (cifar10.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN /
+                             FLAGS.batch_size)
+    decay_steps = int(num_batches_per_epoch * cifar10.NUM_EPOCHS_PER_DECAY)
+    # Decay the learning rate exponentially based on the number of steps.
+    lr = tf.train.exponential_decay(cifar10.INITIAL_LEARNING_RATE,
+                                    global_step,
+                                    decay_steps,
+                                    cifar10.LEARNING_RATE_DECAY_FACTOR,
+                                    staircase=True)
+    # Create an optimizer that performs gradient descent.
+    opt = tf.train.GradientDescentOptimizer(lr)
+    # Calculate the gradients for each model tower.
+    tower_grads = []
+    for i in xrange(FLAGS.num_gpus):
+      with tf.device('/gpu:%d' % i):
+        with tf.name_scope('%s_%d' % (cifar10.TOWER_NAME, i)) as scope:
+          # Calculate the loss for one tower of the CIFAR model. This function
+          # constructs the entire CIFAR model but shares the variables across
+          # all towers.
+          loss = tower_loss(scope)
+          # Reuse variables for the next tower.
+          tf.get_variable_scope().reuse_variables()
+          # Retain the summaries from the final tower.
+          summaries = tf.get_collection(tf.GraphKeys.SUMMARIES, scope)
+          # Calculate the gradients for the batch of data on this CIFAR tower.
+          grads = opt.compute_gradients(loss)
+          # Keep track of the gradients across all towers.
+          tower_grads.append(grads)
+    # We must calculate the mean of each gradient. Note that this is the
+    # synchronization point across all towers.
+    grads = average_gradients(tower_grads)
+    # Add a summary to track the learning rate.
+    summaries.append(tf.scalar_summary('learning_rate', lr))
+    # Add histograms for gradients.
+    for grad, var in grads:
+      if grad:
+        summaries.append(
+            tf.histogram_summary(var.op.name + '/gradients', grad))
+    # Apply the gradients to adjust the shared variables.
+    apply_gradient_op = opt.apply_gradients(grads, global_step=global_step)
+    # Add histograms for trainable variables.
+    for var in tf.trainable_variables():
+      summaries.append(tf.histogram_summary(var.op.name, var))
+    # Track the moving averages of all trainable variables.
+    variable_averages = tf.train.ExponentialMovingAverage(
+        cifar10.MOVING_AVERAGE_DECAY, global_step)
+    variables_averages_op = variable_averages.apply(tf.trainable_variables())
+    # Group all updates to into a single train op.
+    train_op = tf.group(apply_gradient_op, variables_averages_op)
+    # Create a saver.
+    saver = tf.train.Saver(tf.all_variables())
+    # Build the summary operation from the last tower summaries.
+    summary_op = tf.merge_summary(summaries)
+    # Build an initialization operation to run below.
+    init = tf.initialize_all_variables()
+    # Start running operations on the Graph. allow_soft_placement must be set to
+    # True to build towers on GPU, as some of the ops do not have GPU
+    # implementations.
+    sess = tf.Session(config=tf.ConfigProto(
+        allow_soft_placement=True,
+        log_device_placement=FLAGS.log_device_placement))
+    sess.run(init)
+    # Start the queue runners.
+    tf.train.start_queue_runners(sess=sess)
+    summary_writer = tf.train.SummaryWriter(FLAGS.train_dir,
+                                            graph_def=sess.graph_def)
+    for step in xrange(FLAGS.max_steps):
+      start_time = time.time()
+      _, loss_value = sess.run([train_op, loss])
+      duration = time.time() - start_time
+      assert not np.isnan(loss_value), 'Model diverged with loss = NaN'
+      if step % 10 == 0:
+        num_examples_per_step = FLAGS.batch_size * FLAGS.num_gpus
+        examples_per_sec = num_examples_per_step / duration
+        sec_per_batch = duration / FLAGS.num_gpus
+        format_str = ('%s: step %d, loss = %.2f (%.1f examples/sec; %.3f '
+                      'sec/batch)')
+        print (format_str % (datetime.now(), step, loss_value,
+                             examples_per_sec, sec_per_batch))
+      if step % 100 == 0:
+        summary_str = sess.run(summary_op)
+        summary_writer.add_summary(summary_str, step)
+      # Save the model checkpoint periodically.
+      if step % 1000 == 0 or (step + 1) == FLAGS.max_steps:
+        checkpoint_path = os.path.join(FLAGS.train_dir, 'model.ckpt')
+        saver.save(sess, checkpoint_path, global_step=step)
+def main(argv=None):  # pylint: disable=unused-argument
+  cifar10.maybe_download_and_extract()
+  if gfile.Exists(FLAGS.train_dir):
+    gfile.DeleteRecursively(FLAGS.train_dir)
+  gfile.MakeDirs(FLAGS.train_dir)
+  train()
+if __name__ == '__main__':
+  tf.app.run()

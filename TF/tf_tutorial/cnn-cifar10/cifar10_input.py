@@ -1,1 +1,189 @@
-IyBDb3B5cmlnaHQgMjAxNSBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLgojCiMgTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlICJMaWNlbnNlIik7CiMgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgojIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAojCiMgICAgIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMAojCiMgVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQojIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuICJBUyBJUyIgQkFTSVMsCiMgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiMgU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAojIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKIiIiUm91dGluZSBmb3IgZGVjb2RpbmcgdGhlIENJRkFSLTEwIGJpbmFyeSBmaWxlIGZvcm1hdC4iIiIKCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYWJzb2x1dGVfaW1wb3J0CmZyb20gX19mdXR1cmVfXyBpbXBvcnQgZGl2aXNpb24KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgoKaW1wb3J0IG9zCgppbXBvcnQgdGVuc29yZmxvdy5weXRob24ucGxhdGZvcm0KZnJvbSBzaXgubW92ZXMgaW1wb3J0IHhyYW5nZSAgIyBweWxpbnQ6IGRpc2FibGU9cmVkZWZpbmVkLWJ1aWx0aW4KaW1wb3J0IHRlbnNvcmZsb3cgYXMgdGYKCmZyb20gdGVuc29yZmxvdy5weXRob24ucGxhdGZvcm0gaW1wb3J0IGdmaWxlCgojIFByb2Nlc3MgaW1hZ2VzIG9mIHRoaXMgc2l6ZS4gTm90ZSB0aGF0IHRoaXMgZGlmZmVycyBmcm9tIHRoZSBvcmlnaW5hbCBDSUZBUgojIGltYWdlIHNpemUgb2YgMzIgeCAzMi4gSWYgb25lIGFsdGVycyB0aGlzIG51bWJlciwgdGhlbiB0aGUgZW50aXJlIG1vZGVsCiMgYXJjaGl0ZWN0dXJlIHdpbGwgY2hhbmdlIGFuZCBhbnkgbW9kZWwgd291bGQgbmVlZCB0byBiZSByZXRyYWluZWQuCklNQUdFX1NJWkUgPSAyNAoKIyBHbG9iYWwgY29uc3RhbnRzIGRlc2NyaWJpbmcgdGhlIENJRkFSLTEwIGRhdGEgc2V0LgpOVU1fQ0xBU1NFUyA9IDEwCk5VTV9FWEFNUExFU19QRVJfRVBPQ0hfRk9SX1RSQUlOID0gNTAwMDAKTlVNX0VYQU1QTEVTX1BFUl9FUE9DSF9GT1JfRVZBTCA9IDEwMDAwCgoKZGVmIHJlYWRfY2lmYXIxMChmaWxlbmFtZV9xdWV1ZSk6CiAgIiIiUmVhZHMgYW5kIHBhcnNlcyBleGFtcGxlcyBmcm9tIENJRkFSMTAgZGF0YSBmaWxlcy4KCiAgUmVjb21tZW5kYXRpb246IGlmIHlvdSB3YW50IE4td2F5IHJlYWQgcGFyYWxsZWxpc20sIGNhbGwgdGhpcyBmdW5jdGlvbgogIE4gdGltZXMuICBUaGlzIHdpbGwgZ2l2ZSB5b3UgTiBpbmRlcGVuZGVudCBSZWFkZXJzIHJlYWRpbmcgZGlmZmVyZW50CiAgZmlsZXMgJiBwb3NpdGlvbnMgd2l0aGluIHRob3NlIGZpbGVzLCB3aGljaCB3aWxsIGdpdmUgYmV0dGVyIG1peGluZyBvZgogIGV4YW1wbGVzLgoKICBBcmdzOgogICAgZmlsZW5hbWVfcXVldWU6IEEgcXVldWUgb2Ygc3RyaW5ncyB3aXRoIHRoZSBmaWxlbmFtZXMgdG8gcmVhZCBmcm9tLgoKICBSZXR1cm5zOgogICAgQW4gb2JqZWN0IHJlcHJlc2VudGluZyBhIHNpbmdsZSBleGFtcGxlLCB3aXRoIHRoZSBmb2xsb3dpbmcgZmllbGRzOgogICAgICBoZWlnaHQ6IG51bWJlciBvZiByb3dzIGluIHRoZSByZXN1bHQgKDMyKQogICAgICB3aWR0aDogbnVtYmVyIG9mIGNvbHVtbnMgaW4gdGhlIHJlc3VsdCAoMzIpCiAgICAgIGRlcHRoOiBudW1iZXIgb2YgY29sb3IgY2hhbm5lbHMgaW4gdGhlIHJlc3VsdCAoMykKICAgICAga2V5OiBhIHNjYWxhciBzdHJpbmcgVGVuc29yIGRlc2NyaWJpbmcgdGhlIGZpbGVuYW1lICYgcmVjb3JkIG51bWJlcgogICAgICAgIGZvciB0aGlzIGV4YW1wbGUuCiAgICAgIGxhYmVsOiBhbiBpbnQzMiBUZW5zb3Igd2l0aCB0aGUgbGFiZWwgaW4gdGhlIHJhbmdlIDAuLjkuCiAgICAgIHVpbnQ4aW1hZ2U6IGEgW2hlaWdodCwgd2lkdGgsIGRlcHRoXSB1aW50OCBUZW5zb3Igd2l0aCB0aGUgaW1hZ2UgZGF0YQogICIiIgoKICBjbGFzcyBDSUZBUjEwUmVjb3JkKG9iamVjdCk6CiAgICBwYXNzCiAgcmVzdWx0ID0gQ0lGQVIxMFJlY29yZCgpCgogICMgRGltZW5zaW9ucyBvZiB0aGUgaW1hZ2VzIGluIHRoZSBDSUZBUi0xMCBkYXRhc2V0LgogICMgU2VlIGh0dHA6Ly93d3cuY3MudG9yb250by5lZHUvfmtyaXovY2lmYXIuaHRtbCBmb3IgYSBkZXNjcmlwdGlvbiBvZiB0aGUKICAjIGlucHV0IGZvcm1hdC4KICBsYWJlbF9ieXRlcyA9IDEgICMgMiBmb3IgQ0lGQVItMTAwCiAgcmVzdWx0LmhlaWdodCA9IDMyCiAgcmVzdWx0LndpZHRoID0gMzIKICByZXN1bHQuZGVwdGggPSAzCiAgaW1hZ2VfYnl0ZXMgPSByZXN1bHQuaGVpZ2h0ICogcmVzdWx0LndpZHRoICogcmVzdWx0LmRlcHRoCiAgIyBFdmVyeSByZWNvcmQgY29uc2lzdHMgb2YgYSBsYWJlbCBmb2xsb3dlZCBieSB0aGUgaW1hZ2UsIHdpdGggYQogICMgZml4ZWQgbnVtYmVyIG9mIGJ5dGVzIGZvciBlYWNoLgogIHJlY29yZF9ieXRlcyA9IGxhYmVsX2J5dGVzICsgaW1hZ2VfYnl0ZXMKCiAgIyBSZWFkIGEgcmVjb3JkLCBnZXR0aW5nIGZpbGVuYW1lcyBmcm9tIHRoZSBmaWxlbmFtZV9xdWV1ZS4gIE5vCiAgIyBoZWFkZXIgb3IgZm9vdGVyIGluIHRoZSBDSUZBUi0xMCBmb3JtYXQsIHNvIHdlIGxlYXZlIGhlYWRlcl9ieXRlcwogICMgYW5kIGZvb3Rlcl9ieXRlcyBhdCB0aGVpciBkZWZhdWx0IG9mIDAuCiAgcmVhZGVyID0gdGYuRml4ZWRMZW5ndGhSZWNvcmRSZWFkZXIocmVjb3JkX2J5dGVzPXJlY29yZF9ieXRlcykKICByZXN1bHQua2V5LCB2YWx1ZSA9IHJlYWRlci5yZWFkKGZpbGVuYW1lX3F1ZXVlKQoKICAjIENvbnZlcnQgZnJvbSBhIHN0cmluZyB0byBhIHZlY3RvciBvZiB1aW50OCB0aGF0IGlzIHJlY29yZF9ieXRlcyBsb25nLgogIHJlY29yZF9ieXRlcyA9IHRmLmRlY29kZV9yYXcodmFsdWUsIHRmLnVpbnQ4KQoKICAjIFRoZSBmaXJzdCBieXRlcyByZXByZXNlbnQgdGhlIGxhYmVsLCB3aGljaCB3ZSBjb252ZXJ0IGZyb20gdWludDgtPmludDMyLgogIHJlc3VsdC5sYWJlbCA9IHRmLmNhc3QoCiAgICAgIHRmLnNsaWNlKHJlY29yZF9ieXRlcywgWzBdLCBbbGFiZWxfYnl0ZXNdKSwgdGYuaW50MzIpCgogICMgVGhlIHJlbWFpbmluZyBieXRlcyBhZnRlciB0aGUgbGFiZWwgcmVwcmVzZW50IHRoZSBpbWFnZSwgd2hpY2ggd2UgcmVzaGFwZQogICMgZnJvbSBbZGVwdGggKiBoZWlnaHQgKiB3aWR0aF0gdG8gW2RlcHRoLCBoZWlnaHQsIHdpZHRoXS4KICBkZXB0aF9tYWpvciA9IHRmLnJlc2hhcGUodGYuc2xpY2UocmVjb3JkX2J5dGVzLCBbbGFiZWxfYnl0ZXNdLCBbaW1hZ2VfYnl0ZXNdKSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgW3Jlc3VsdC5kZXB0aCwgcmVzdWx0LmhlaWdodCwgcmVzdWx0LndpZHRoXSkKICAjIENvbnZlcnQgZnJvbSBbZGVwdGgsIGhlaWdodCwgd2lkdGhdIHRvIFtoZWlnaHQsIHdpZHRoLCBkZXB0aF0uCiAgcmVzdWx0LnVpbnQ4aW1hZ2UgPSB0Zi50cmFuc3Bvc2UoZGVwdGhfbWFqb3IsIFsxLCAyLCAwXSkKCiAgcmV0dXJuIHJlc3VsdAoKCmRlZiBfZ2VuZXJhdGVfaW1hZ2VfYW5kX2xhYmVsX2JhdGNoKGltYWdlLCBsYWJlbCwgbWluX3F1ZXVlX2V4YW1wbGVzLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYXRjaF9zaXplKToKICAiIiJDb25zdHJ1Y3QgYSBxdWV1ZWQgYmF0Y2ggb2YgaW1hZ2VzIGFuZCBsYWJlbHMuCgogIEFyZ3M6CiAgICBpbWFnZTogMy1EIFRlbnNvciBvZiBbaGVpZ2h0LCB3aWR0aCwgM10gb2YgdHlwZS5mbG9hdDMyLgogICAgbGFiZWw6IDEtRCBUZW5zb3Igb2YgdHlwZS5pbnQzMgogICAgbWluX3F1ZXVlX2V4YW1wbGVzOiBpbnQzMiwgbWluaW11bSBudW1iZXIgb2Ygc2FtcGxlcyB0byByZXRhaW4KICAgICAgaW4gdGhlIHF1ZXVlIHRoYXQgcHJvdmlkZXMgb2YgYmF0Y2hlcyBvZiBleGFtcGxlcy4KICAgIGJhdGNoX3NpemU6IE51bWJlciBvZiBpbWFnZXMgcGVyIGJhdGNoLgoKICBSZXR1cm5zOgogICAgaW1hZ2VzOiBJbWFnZXMuIDREIHRlbnNvciBvZiBbYmF0Y2hfc2l6ZSwgaGVpZ2h0LCB3aWR0aCwgM10gc2l6ZS4KICAgIGxhYmVsczogTGFiZWxzLiAxRCB0ZW5zb3Igb2YgW2JhdGNoX3NpemVdIHNpemUuCiAgIiIiCiAgIyBDcmVhdGUgYSBxdWV1ZSB0aGF0IHNodWZmbGVzIHRoZSBleGFtcGxlcywgYW5kIHRoZW4KICAjIHJlYWQgJ2JhdGNoX3NpemUnIGltYWdlcyArIGxhYmVscyBmcm9tIHRoZSBleGFtcGxlIHF1ZXVlLgogIG51bV9wcmVwcm9jZXNzX3RocmVhZHMgPSAxNgogIGltYWdlcywgbGFiZWxfYmF0Y2ggPSB0Zi50cmFpbi5zaHVmZmxlX2JhdGNoKAogICAgICBbaW1hZ2UsIGxhYmVsXSwKICAgICAgYmF0Y2hfc2l6ZT1iYXRjaF9zaXplLAogICAgICBudW1fdGhyZWFkcz1udW1fcHJlcHJvY2Vzc190aHJlYWRzLAogICAgICBjYXBhY2l0eT1taW5fcXVldWVfZXhhbXBsZXMgKyAzICogYmF0Y2hfc2l6ZSwKICAgICAgbWluX2FmdGVyX2RlcXVldWU9bWluX3F1ZXVlX2V4YW1wbGVzKQoKICAjIERpc3BsYXkgdGhlIHRyYWluaW5nIGltYWdlcyBpbiB0aGUgdmlzdWFsaXplci4KICB0Zi5pbWFnZV9zdW1tYXJ5KCdpbWFnZXMnLCBpbWFnZXMpCgogIHJldHVybiBpbWFnZXMsIHRmLnJlc2hhcGUobGFiZWxfYmF0Y2gsIFtiYXRjaF9zaXplXSkKCgpkZWYgZGlzdG9ydGVkX2lucHV0cyhkYXRhX2RpciwgYmF0Y2hfc2l6ZSk6CiAgIiIiQ29uc3RydWN0IGRpc3RvcnRlZCBpbnB1dCBmb3IgQ0lGQVIgdHJhaW5pbmcgdXNpbmcgdGhlIFJlYWRlciBvcHMuCgogIEFyZ3M6CiAgICBkYXRhX2RpcjogUGF0aCB0byB0aGUgQ0lGQVItMTAgZGF0YSBkaXJlY3RvcnkuCiAgICBiYXRjaF9zaXplOiBOdW1iZXIgb2YgaW1hZ2VzIHBlciBiYXRjaC4KCiAgUmV0dXJuczoKICAgIGltYWdlczogSW1hZ2VzLiA0RCB0ZW5zb3Igb2YgW2JhdGNoX3NpemUsIElNQUdFX1NJWkUsIElNQUdFX1NJWkUsIDNdIHNpemUuCiAgICBsYWJlbHM6IExhYmVscy4gMUQgdGVuc29yIG9mIFtiYXRjaF9zaXplXSBzaXplLgogICIiIgogIGZpbGVuYW1lcyA9IFtvcy5wYXRoLmpvaW4oZGF0YV9kaXIsICdkYXRhX2JhdGNoXyVkLmJpbicgJSBpKQogICAgICAgICAgICAgICBmb3IgaSBpbiB4cmFuZ2UoMSwgNildCiAgZm9yIGYgaW4gZmlsZW5hbWVzOgogICAgaWYgbm90IGdmaWxlLkV4aXN0cyhmKToKICAgICAgcmFpc2UgVmFsdWVFcnJvcignRmFpbGVkIHRvIGZpbmQgZmlsZTogJyArIGYpCgogICMgQ3JlYXRlIGEgcXVldWUgdGhhdCBwcm9kdWNlcyB0aGUgZmlsZW5hbWVzIHRvIHJlYWQuCiAgZmlsZW5hbWVfcXVldWUgPSB0Zi50cmFpbi5zdHJpbmdfaW5wdXRfcHJvZHVjZXIoZmlsZW5hbWVzKQoKICAjIFJlYWQgZXhhbXBsZXMgZnJvbSBmaWxlcyBpbiB0aGUgZmlsZW5hbWUgcXVldWUuCiAgcmVhZF9pbnB1dCA9IHJlYWRfY2lmYXIxMChmaWxlbmFtZV9xdWV1ZSkKICByZXNoYXBlZF9pbWFnZSA9IHRmLmNhc3QocmVhZF9pbnB1dC51aW50OGltYWdlLCB0Zi5mbG9hdDMyKQoKICBoZWlnaHQgPSBJTUFHRV9TSVpFCiAgd2lkdGggPSBJTUFHRV9TSVpFCgogICMgSW1hZ2UgcHJvY2Vzc2luZyBmb3IgdHJhaW5pbmcgdGhlIG5ldHdvcmsuIE5vdGUgdGhlIG1hbnkgcmFuZG9tCiAgIyBkaXN0b3J0aW9ucyBhcHBsaWVkIHRvIHRoZSBpbWFnZS4KCiAgIyBSYW5kb21seSBjcm9wIGEgW2hlaWdodCwgd2lkdGhdIHNlY3Rpb24gb2YgdGhlIGltYWdlLgogIGRpc3RvcnRlZF9pbWFnZSA9IHRmLmltYWdlLnJhbmRvbV9jcm9wKHJlc2hhcGVkX2ltYWdlLCBbaGVpZ2h0LCB3aWR0aF0pCgogICMgUmFuZG9tbHkgZmxpcCB0aGUgaW1hZ2UgaG9yaXpvbnRhbGx5LgogIGRpc3RvcnRlZF9pbWFnZSA9IHRmLmltYWdlLnJhbmRvbV9mbGlwX2xlZnRfcmlnaHQoZGlzdG9ydGVkX2ltYWdlKQoKICAjIEJlY2F1c2UgdGhlc2Ugb3BlcmF0aW9ucyBhcmUgbm90IGNvbW11dGF0aXZlLCBjb25zaWRlciByYW5kb21pemluZwogICMgcmFuZG9taXplIHRoZSBvcmRlciB0aGVpciBvcGVyYXRpb24uCiAgZGlzdG9ydGVkX2ltYWdlID0gdGYuaW1hZ2UucmFuZG9tX2JyaWdodG5lc3MoZGlzdG9ydGVkX2ltYWdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heF9kZWx0YT02MykKICBkaXN0b3J0ZWRfaW1hZ2UgPSB0Zi5pbWFnZS5yYW5kb21fY29udHJhc3QoZGlzdG9ydGVkX2ltYWdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsb3dlcj0wLjIsIHVwcGVyPTEuOCkKCiAgIyBTdWJ0cmFjdCBvZmYgdGhlIG1lYW4gYW5kIGRpdmlkZSBieSB0aGUgdmFyaWFuY2Ugb2YgdGhlIHBpeGVscy4KICBmbG9hdF9pbWFnZSA9IHRmLmltYWdlLnBlcl9pbWFnZV93aGl0ZW5pbmcoZGlzdG9ydGVkX2ltYWdlKQoKICAjIEVuc3VyZSB0aGF0IHRoZSByYW5kb20gc2h1ZmZsaW5nIGhhcyBnb29kIG1peGluZyBwcm9wZXJ0aWVzLgogIG1pbl9mcmFjdGlvbl9vZl9leGFtcGxlc19pbl9xdWV1ZSA9IDAuNAogIG1pbl9xdWV1ZV9leGFtcGxlcyA9IGludChOVU1fRVhBTVBMRVNfUEVSX0VQT0NIX0ZPUl9UUkFJTiAqCiAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbl9mcmFjdGlvbl9vZl9leGFtcGxlc19pbl9xdWV1ZSkKICBwcmludCAoJ0ZpbGxpbmcgcXVldWUgd2l0aCAlZCBDSUZBUiBpbWFnZXMgYmVmb3JlIHN0YXJ0aW5nIHRvIHRyYWluLiAnCiAgICAgICAgICdUaGlzIHdpbGwgdGFrZSBhIGZldyBtaW51dGVzLicgJSBtaW5fcXVldWVfZXhhbXBsZXMpCgogICMgR2VuZXJhdGUgYSBiYXRjaCBvZiBpbWFnZXMgYW5kIGxhYmVscyBieSBidWlsZGluZyB1cCBhIHF1ZXVlIG9mIGV4YW1wbGVzLgogIHJldHVybiBfZ2VuZXJhdGVfaW1hZ2VfYW5kX2xhYmVsX2JhdGNoKGZsb2F0X2ltYWdlLCByZWFkX2lucHV0LmxhYmVsLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1pbl9xdWV1ZV9leGFtcGxlcywgYmF0Y2hfc2l6ZSkKCgpkZWYgaW5wdXRzKGV2YWxfZGF0YSwgZGF0YV9kaXIsIGJhdGNoX3NpemUpOgogICIiIkNvbnN0cnVjdCBpbnB1dCBmb3IgQ0lGQVIgZXZhbHVhdGlvbiB1c2luZyB0aGUgUmVhZGVyIG9wcy4KCiAgQXJnczoKICAgIGV2YWxfZGF0YTogYm9vbCwgaW5kaWNhdGluZyBpZiBvbmUgc2hvdWxkIHVzZSB0aGUgdHJhaW4gb3IgZXZhbCBkYXRhIHNldC4KICAgIGRhdGFfZGlyOiBQYXRoIHRvIHRoZSBDSUZBUi0xMCBkYXRhIGRpcmVjdG9yeS4KICAgIGJhdGNoX3NpemU6IE51bWJlciBvZiBpbWFnZXMgcGVyIGJhdGNoLgoKICBSZXR1cm5zOgogICAgaW1hZ2VzOiBJbWFnZXMuIDREIHRlbnNvciBvZiBbYmF0Y2hfc2l6ZSwgSU1BR0VfU0laRSwgSU1BR0VfU0laRSwgM10gc2l6ZS4KICAgIGxhYmVsczogTGFiZWxzLiAxRCB0ZW5zb3Igb2YgW2JhdGNoX3NpemVdIHNpemUuCiAgIiIiCiAgaWYgbm90IGV2YWxfZGF0YToKICAgIGZpbGVuYW1lcyA9IFtvcy5wYXRoLmpvaW4oZGF0YV9kaXIsICdkYXRhX2JhdGNoXyVkLmJpbicgJSBpKQogICAgICAgICAgICAgICAgIGZvciBpIGluIHhyYW5nZSgxLCA2KV0KICAgIG51bV9leGFtcGxlc19wZXJfZXBvY2ggPSBOVU1fRVhBTVBMRVNfUEVSX0VQT0NIX0ZPUl9UUkFJTgogIGVsc2U6CiAgICBmaWxlbmFtZXMgPSBbb3MucGF0aC5qb2luKGRhdGFfZGlyLCAndGVzdF9iYXRjaC5iaW4nKV0KICAgIG51bV9leGFtcGxlc19wZXJfZXBvY2ggPSBOVU1fRVhBTVBMRVNfUEVSX0VQT0NIX0ZPUl9FVkFMCgogIGZvciBmIGluIGZpbGVuYW1lczoKICAgIGlmIG5vdCBnZmlsZS5FeGlzdHMoZik6CiAgICAgIHJhaXNlIFZhbHVlRXJyb3IoJ0ZhaWxlZCB0byBmaW5kIGZpbGU6ICcgKyBmKQoKICAjIENyZWF0ZSBhIHF1ZXVlIHRoYXQgcHJvZHVjZXMgdGhlIGZpbGVuYW1lcyB0byByZWFkLgogIGZpbGVuYW1lX3F1ZXVlID0gdGYudHJhaW4uc3RyaW5nX2lucHV0X3Byb2R1Y2VyKGZpbGVuYW1lcykKCiAgIyBSZWFkIGV4YW1wbGVzIGZyb20gZmlsZXMgaW4gdGhlIGZpbGVuYW1lIHF1ZXVlLgogIHJlYWRfaW5wdXQgPSByZWFkX2NpZmFyMTAoZmlsZW5hbWVfcXVldWUpCiAgcmVzaGFwZWRfaW1hZ2UgPSB0Zi5jYXN0KHJlYWRfaW5wdXQudWludDhpbWFnZSwgdGYuZmxvYXQzMikKCiAgaGVpZ2h0ID0gSU1BR0VfU0laRQogIHdpZHRoID0gSU1BR0VfU0laRQoKICAjIEltYWdlIHByb2Nlc3NpbmcgZm9yIGV2YWx1YXRpb24uCiAgIyBDcm9wIHRoZSBjZW50cmFsIFtoZWlnaHQsIHdpZHRoXSBvZiB0aGUgaW1hZ2UuCiAgcmVzaXplZF9pbWFnZSA9IHRmLmltYWdlLnJlc2l6ZV9pbWFnZV93aXRoX2Nyb3Bfb3JfcGFkKHJlc2hhcGVkX2ltYWdlLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aCwgaGVpZ2h0KQoKICAjIFN1YnRyYWN0IG9mZiB0aGUgbWVhbiBhbmQgZGl2aWRlIGJ5IHRoZSB2YXJpYW5jZSBvZiB0aGUgcGl4ZWxzLgogIGZsb2F0X2ltYWdlID0gdGYuaW1hZ2UucGVyX2ltYWdlX3doaXRlbmluZyhyZXNpemVkX2ltYWdlKQoKICAjIEVuc3VyZSB0aGF0IHRoZSByYW5kb20gc2h1ZmZsaW5nIGhhcyBnb29kIG1peGluZyBwcm9wZXJ0aWVzLgogIG1pbl9mcmFjdGlvbl9vZl9leGFtcGxlc19pbl9xdWV1ZSA9IDAuNAogIG1pbl9xdWV1ZV9leGFtcGxlcyA9IGludChudW1fZXhhbXBsZXNfcGVyX2Vwb2NoICoKICAgICAgICAgICAgICAgICAgICAgICAgICAgbWluX2ZyYWN0aW9uX29mX2V4YW1wbGVzX2luX3F1ZXVlKQoKICAjIEdlbmVyYXRlIGEgYmF0Y2ggb2YgaW1hZ2VzIGFuZCBsYWJlbHMgYnkgYnVpbGRpbmcgdXAgYSBxdWV1ZSBvZiBleGFtcGxlcy4KICByZXR1cm4gX2dlbmVyYXRlX2ltYWdlX2FuZF9sYWJlbF9iYXRjaChmbG9hdF9pbWFnZSwgcmVhZF9pbnB1dC5sYWJlbCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtaW5fcXVldWVfZXhhbXBsZXMsIGJhdGNoX3NpemUpCg==
+# Copyright 2015 Google Inc. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+"""Routine for decoding the CIFAR-10 binary file format."""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import os
+import tensorflow.python.platform
+from six.moves import xrange  # pylint: disable=redefined-builtin
+import tensorflow as tf
+from tensorflow.python.platform import gfile
+# Process images of this size. Note that this differs from the original CIFAR
+# image size of 32 x 32. If one alters this number, then the entire model
+# architecture will change and any model would need to be retrained.
+IMAGE_SIZE = 24
+# Global constants describing the CIFAR-10 data set.
+NUM_CLASSES = 10
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = 50000
+NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = 10000
+def read_cifar10(filename_queue):
+  """Reads and parses examples from CIFAR10 data files.
+  Recommendation: if you want N-way read parallelism, call this function
+  N times.  This will give you N independent Readers reading different
+  files & positions within those files, which will give better mixing of
+  examples.
+  Args:
+    filename_queue: A queue of strings with the filenames to read from.
+  Returns:
+    An object representing a single example, with the following fields:
+      height: number of rows in the result (32)
+      width: number of columns in the result (32)
+      depth: number of color channels in the result (3)
+      key: a scalar string Tensor describing the filename & record number
+        for this example.
+      label: an int32 Tensor with the label in the range 0..9.
+      uint8image: a [height, width, depth] uint8 Tensor with the image data
+  """
+  class CIFAR10Record(object):
+    pass
+  result = CIFAR10Record()
+  # Dimensions of the images in the CIFAR-10 dataset.
+  # See http://www.cs.toronto.edu/~kriz/cifar.html for a description of the
+  # input format.
+  label_bytes = 1  # 2 for CIFAR-100
+  result.height = 32
+  result.width = 32
+  result.depth = 3
+  image_bytes = result.height * result.width * result.depth
+  # Every record consists of a label followed by the image, with a
+  # fixed number of bytes for each.
+  record_bytes = label_bytes + image_bytes
+  # Read a record, getting filenames from the filename_queue.  No
+  # header or footer in the CIFAR-10 format, so we leave header_bytes
+  # and footer_bytes at their default of 0.
+  reader = tf.FixedLengthRecordReader(record_bytes=record_bytes)
+  result.key, value = reader.read(filename_queue)
+  # Convert from a string to a vector of uint8 that is record_bytes long.
+  record_bytes = tf.decode_raw(value, tf.uint8)
+  # The first bytes represent the label, which we convert from uint8->int32.
+  result.label = tf.cast(
+      tf.slice(record_bytes, [0], [label_bytes]), tf.int32)
+  # The remaining bytes after the label represent the image, which we reshape
+  # from [depth * height * width] to [depth, height, width].
+  depth_major = tf.reshape(tf.slice(record_bytes, [label_bytes], [image_bytes]),
+                           [result.depth, result.height, result.width])
+  # Convert from [depth, height, width] to [height, width, depth].
+  result.uint8image = tf.transpose(depth_major, [1, 2, 0])
+  return result
+def _generate_image_and_label_batch(image, label, min_queue_examples,
+                                    batch_size):
+  """Construct a queued batch of images and labels.
+  Args:
+    image: 3-D Tensor of [height, width, 3] of type.float32.
+    label: 1-D Tensor of type.int32
+    min_queue_examples: int32, minimum number of samples to retain
+      in the queue that provides of batches of examples.
+    batch_size: Number of images per batch.
+  Returns:
+    images: Images. 4D tensor of [batch_size, height, width, 3] size.
+    labels: Labels. 1D tensor of [batch_size] size.
+  """
+  # Create a queue that shuffles the examples, and then
+  # read 'batch_size' images + labels from the example queue.
+  num_preprocess_threads = 16
+  images, label_batch = tf.train.shuffle_batch(
+      [image, label],
+      batch_size=batch_size,
+      num_threads=num_preprocess_threads,
+      capacity=min_queue_examples + 3 * batch_size,
+      min_after_dequeue=min_queue_examples)
+  # Display the training images in the visualizer.
+  tf.image_summary('images', images)
+  return images, tf.reshape(label_batch, [batch_size])
+def distorted_inputs(data_dir, batch_size):
+  """Construct distorted input for CIFAR training using the Reader ops.
+  Args:
+    data_dir: Path to the CIFAR-10 data directory.
+    batch_size: Number of images per batch.
+  Returns:
+    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
+    labels: Labels. 1D tensor of [batch_size] size.
+  """
+  filenames = [os.path.join(data_dir, 'data_batch_%d.bin' % i)
+               for i in xrange(1, 6)]
+  for f in filenames:
+    if not gfile.Exists(f):
+      raise ValueError('Failed to find file: ' + f)
+  # Create a queue that produces the filenames to read.
+  filename_queue = tf.train.string_input_producer(filenames)
+  # Read examples from files in the filename queue.
+  read_input = read_cifar10(filename_queue)
+  reshaped_image = tf.cast(read_input.uint8image, tf.float32)
+  height = IMAGE_SIZE
+  width = IMAGE_SIZE
+  # Image processing for training the network. Note the many random
+  # distortions applied to the image.
+  # Randomly crop a [height, width] section of the image.
+  distorted_image = tf.image.random_crop(reshaped_image, [height, width])
+  # Randomly flip the image horizontally.
+  distorted_image = tf.image.random_flip_left_right(distorted_image)
+  # Because these operations are not commutative, consider randomizing
+  # randomize the order their operation.
+  distorted_image = tf.image.random_brightness(distorted_image,
+                                               max_delta=63)
+  distorted_image = tf.image.random_contrast(distorted_image,
+                                             lower=0.2, upper=1.8)
+  # Subtract off the mean and divide by the variance of the pixels.
+  float_image = tf.image.per_image_whitening(distorted_image)
+  # Ensure that the random shuffling has good mixing properties.
+  min_fraction_of_examples_in_queue = 0.4
+  min_queue_examples = int(NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN *
+                           min_fraction_of_examples_in_queue)
+  print ('Filling queue with %d CIFAR images before starting to train. '
+         'This will take a few minutes.' % min_queue_examples)
+  # Generate a batch of images and labels by building up a queue of examples.
+  return _generate_image_and_label_batch(float_image, read_input.label,
+                                         min_queue_examples, batch_size)
+def inputs(eval_data, data_dir, batch_size):
+  """Construct input for CIFAR evaluation using the Reader ops.
+  Args:
+    eval_data: bool, indicating if one should use the train or eval data set.
+    data_dir: Path to the CIFAR-10 data directory.
+    batch_size: Number of images per batch.
+  Returns:
+    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
+    labels: Labels. 1D tensor of [batch_size] size.
+  """
+  if not eval_data:
+    filenames = [os.path.join(data_dir, 'data_batch_%d.bin' % i)
+                 for i in xrange(1, 6)]
+    num_examples_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
+  else:
+    filenames = [os.path.join(data_dir, 'test_batch.bin')]
+    num_examples_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_EVAL
+  for f in filenames:
+    if not gfile.Exists(f):
+      raise ValueError('Failed to find file: ' + f)
+  # Create a queue that produces the filenames to read.
+  filename_queue = tf.train.string_input_producer(filenames)
+  # Read examples from files in the filename queue.
+  read_input = read_cifar10(filename_queue)
+  reshaped_image = tf.cast(read_input.uint8image, tf.float32)
+  height = IMAGE_SIZE
+  width = IMAGE_SIZE
+  # Image processing for evaluation.
+  # Crop the central [height, width] of the image.
+  resized_image = tf.image.resize_image_with_crop_or_pad(reshaped_image,
+                                                         width, height)
+  # Subtract off the mean and divide by the variance of the pixels.
+  float_image = tf.image.per_image_whitening(resized_image)
+  # Ensure that the random shuffling has good mixing properties.
+  min_fraction_of_examples_in_queue = 0.4
+  min_queue_examples = int(num_examples_per_epoch *
+                           min_fraction_of_examples_in_queue)
+  # Generate a batch of images and labels by building up a queue of examples.
+  return _generate_image_and_label_batch(float_image, read_input.label,
+                                         min_queue_examples, batch_size)

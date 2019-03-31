@@ -1,1 +1,53 @@
-IyBDb3B5cmlnaHQgMjAxNSBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLgojCiMgTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlICJMaWNlbnNlIik7CiMgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgojIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAojCiMgICAgIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMAojCiMgVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQojIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuICJBUyBJUyIgQkFTSVMsCiMgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiMgU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAojIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKIiIiVGVzdHMgZm9yIGNpZmFyMTAgaW5wdXQuIiIiCgpmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGFic29sdXRlX2ltcG9ydApmcm9tIF9fZnV0dXJlX18gaW1wb3J0IGRpdmlzaW9uCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgcHJpbnRfZnVuY3Rpb24KCmltcG9ydCBvcwoKaW1wb3J0IHRlbnNvcmZsb3cucHl0aG9uLnBsYXRmb3JtCgppbXBvcnQgdGVuc29yZmxvdyBhcyB0ZgoKZnJvbSB0ZW5zb3JmbG93Lm1vZGVscy5pbWFnZS5jaWZhcjEwIGltcG9ydCBjaWZhcjEwX2lucHV0CgoKY2xhc3MgQ0lGQVIxMElucHV0VGVzdCh0Zi50ZXN0LlRlc3RDYXNlKToKCiAgZGVmIF9yZWNvcmQoc2VsZiwgbGFiZWwsIHJlZCwgZ3JlZW4sIGJsdWUpOgogICAgaW1hZ2Vfc2l6ZSA9IDMyICogMzIKICAgIHJlY29yZCA9IGJ5dGVzKGJ5dGVhcnJheShbbGFiZWxdICsgW3JlZF0gKiBpbWFnZV9zaXplICsKICAgICAgICAgICAgICAgICAgICAgICAgICAgICBbZ3JlZW5dICogaW1hZ2Vfc2l6ZSArIFtibHVlXSAqIGltYWdlX3NpemUpKQogICAgZXhwZWN0ZWQgPSBbW1tyZWQsIGdyZWVuLCBibHVlXV0gKiAzMl0gKiAzMgogICAgcmV0dXJuIHJlY29yZCwgZXhwZWN0ZWQKCiAgZGVmIHRlc3RTaW1wbGUoc2VsZik6CiAgICBsYWJlbHMgPSBbOSwgMywgMF0KICAgIHJlY29yZHMgPSBbc2VsZi5fcmVjb3JkKGxhYmVsc1swXSwgMCwgMTI4LCAyNTUpLAogICAgICAgICAgICAgICBzZWxmLl9yZWNvcmQobGFiZWxzWzFdLCAyNTUsIDAsIDEpLAogICAgICAgICAgICAgICBzZWxmLl9yZWNvcmQobGFiZWxzWzJdLCAyNTQsIDI1NSwgMCldCiAgICBjb250ZW50cyA9IGIiIi5qb2luKFtyZWNvcmQgZm9yIHJlY29yZCwgXyBpbiByZWNvcmRzXSkKICAgIGV4cGVjdGVkID0gW2V4cGVjdGVkIGZvciBfLCBleHBlY3RlZCBpbiByZWNvcmRzXQogICAgZmlsZW5hbWUgPSBvcy5wYXRoLmpvaW4oc2VsZi5nZXRfdGVtcF9kaXIoKSwgImNpZmFyIikKICAgIG9wZW4oZmlsZW5hbWUsICJ3YiIpLndyaXRlKGNvbnRlbnRzKQoKICAgIHdpdGggc2VsZi50ZXN0X3Nlc3Npb24oKSBhcyBzZXNzOgogICAgICBxID0gdGYuRklGT1F1ZXVlKDk5LCBbdGYuc3RyaW5nXSwgc2hhcGVzPSgpKQogICAgICBxLmVucXVldWUoW2ZpbGVuYW1lXSkucnVuKCkKICAgICAgcS5jbG9zZSgpLnJ1bigpCiAgICAgIHJlc3VsdCA9IGNpZmFyMTBfaW5wdXQucmVhZF9jaWZhcjEwKHEpCgogICAgICBmb3IgaSBpbiByYW5nZSgzKToKICAgICAgICBrZXksIGxhYmVsLCB1aW50OGltYWdlID0gc2Vzcy5ydW4oWwogICAgICAgICAgICByZXN1bHQua2V5LCByZXN1bHQubGFiZWwsIHJlc3VsdC51aW50OGltYWdlXSkKICAgICAgICBzZWxmLmFzc2VydEVxdWFsKCIlczolZCIgJSAoZmlsZW5hbWUsIGkpLCB0Zi5jb21wYXQuYXNfdGV4dChrZXkpKQogICAgICAgIHNlbGYuYXNzZXJ0RXF1YWwobGFiZWxzW2ldLCBsYWJlbCkKICAgICAgICBzZWxmLmFzc2VydEFsbEVxdWFsKGV4cGVjdGVkW2ldLCB1aW50OGltYWdlKQoKICAgICAgd2l0aCBzZWxmLmFzc2VydFJhaXNlcyh0Zi5lcnJvcnMuT3V0T2ZSYW5nZUVycm9yKToKICAgICAgICBzZXNzLnJ1bihbcmVzdWx0LmtleSwgcmVzdWx0LnVpbnQ4aW1hZ2VdKQoKCmlmIF9fbmFtZV9fID09ICJfX21haW5fXyI6CiAgdGYudGVzdC5tYWluKCkK
+# Copyright 2015 Google Inc. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+"""Tests for cifar10 input."""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import os
+import tensorflow.python.platform
+import tensorflow as tf
+from tensorflow.models.image.cifar10 import cifar10_input
+class CIFAR10InputTest(tf.test.TestCase):
+  def _record(self, label, red, green, blue):
+    image_size = 32 * 32
+    record = bytes(bytearray([label] + [red] * image_size +
+                             [green] * image_size + [blue] * image_size))
+    expected = [[[red, green, blue]] * 32] * 32
+    return record, expected
+  def testSimple(self):
+    labels = [9, 3, 0]
+    records = [self._record(labels[0], 0, 128, 255),
+               self._record(labels[1], 255, 0, 1),
+               self._record(labels[2], 254, 255, 0)]
+    contents = b"".join([record for record, _ in records])
+    expected = [expected for _, expected in records]
+    filename = os.path.join(self.get_temp_dir(), "cifar")
+    open(filename, "wb").write(contents)
+    with self.test_session() as sess:
+      q = tf.FIFOQueue(99, [tf.string], shapes=())
+      q.enqueue([filename]).run()
+      q.close().run()
+      result = cifar10_input.read_cifar10(q)
+      for i in range(3):
+        key, label, uint8image = sess.run([
+            result.key, result.label, result.uint8image])
+        self.assertEqual("%s:%d" % (filename, i), tf.compat.as_text(key))
+        self.assertEqual(labels[i], label)
+        self.assertAllEqual(expected[i], uint8image)
+      with self.assertRaises(tf.errors.OutOfRangeError):
+        sess.run([result.key, result.uint8image])
+if __name__ == "__main__":
+  tf.test.main()

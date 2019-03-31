@@ -1,1 +1,311 @@
-IyBDb3B5cmlnaHQgMjAxNSBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLgojCiMgTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlICJMaWNlbnNlIik7CiMgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgojIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAojCiMgICAgIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMAojCiMgVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQojIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuICJBUyBJUyIgQkFTSVMsCiMgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiMgU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAojIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKIiIiQnVpbGRzIHRoZSBDSUZBUi0xMCBuZXR3b3JrLgoKU3VtbWFyeSBvZiBhdmFpbGFibGUgZnVuY3Rpb25zOgoKICMgQ29tcHV0ZSBpbnB1dCBpbWFnZXMgYW5kIGxhYmVscyBmb3IgdHJhaW5pbmcuIElmIHlvdSB3b3VsZCBsaWtlIHRvIHJ1bgogIyBldmFsdWF0aW9ucywgdXNlIGlucHV0KCkgaW5zdGVhZC4KIGlucHV0cywgbGFiZWxzID0gZGlzdG9ydGVkX2lucHV0cygpCgogIyBDb21wdXRlIGluZmVyZW5jZSBvbiB0aGUgbW9kZWwgaW5wdXRzIHRvIG1ha2UgYSBwcmVkaWN0aW9uLgogcHJlZGljdGlvbnMgPSBpbmZlcmVuY2UoaW5wdXRzKQoKICMgQ29tcHV0ZSB0aGUgdG90YWwgbG9zcyBvZiB0aGUgcHJlZGljdGlvbiB3aXRoIHJlc3BlY3QgdG8gdGhlIGxhYmVscy4KIGxvc3MgPSBsb3NzKHByZWRpY3Rpb25zLCBsYWJlbHMpCgogIyBDcmVhdGUgYSBncmFwaCB0byBydW4gb25lIHN0ZXAgb2YgdHJhaW5pbmcgd2l0aCByZXNwZWN0IHRvIHRoZSBsb3NzLgogdHJhaW5fb3AgPSB0cmFpbihsb3NzLCBnbG9iYWxfc3RlcCkKIiIiCiMgcHlsaW50OiBkaXNhYmxlPW1pc3NpbmctZG9jc3RyaW5nCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYWJzb2x1dGVfaW1wb3J0CmZyb20gX19mdXR1cmVfXyBpbXBvcnQgZGl2aXNpb24KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgoKaW1wb3J0IGd6aXAKaW1wb3J0IG9zCmltcG9ydCByZQppbXBvcnQgc3lzCmltcG9ydCB0YXJmaWxlCgppbXBvcnQgdGVuc29yZmxvdy5weXRob24ucGxhdGZvcm0KZnJvbSBzaXgubW92ZXMgaW1wb3J0IHVybGxpYgppbXBvcnQgdGVuc29yZmxvdyBhcyB0ZgoKZnJvbSB0ZW5zb3JmbG93Lm1vZGVscy5pbWFnZS5jaWZhcjEwIGltcG9ydCBjaWZhcjEwX2lucHV0CgpGTEFHUyA9IHRmLmFwcC5mbGFncy5GTEFHUwoKIyBCYXNpYyBtb2RlbCBwYXJhbWV0ZXJzLgp0Zi5hcHAuZmxhZ3MuREVGSU5FX2ludGVnZXIoJ2JhdGNoX3NpemUnLCAxMjgsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAiIiJOdW1iZXIgb2YgaW1hZ2VzIHRvIHByb2Nlc3MgaW4gYSBiYXRjaC4iIiIpCnRmLmFwcC5mbGFncy5ERUZJTkVfc3RyaW5nKCdkYXRhX2RpcicsICcvdG1wL2NpZmFyMTBfZGF0YScsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICIiIlBhdGggdG8gdGhlIENJRkFSLTEwIGRhdGEgZGlyZWN0b3J5LiIiIikKCiMgR2xvYmFsIGNvbnN0YW50cyBkZXNjcmliaW5nIHRoZSBDSUZBUi0xMCBkYXRhIHNldC4KSU1BR0VfU0laRSA9IGNpZmFyMTBfaW5wdXQuSU1BR0VfU0laRQpOVU1fQ0xBU1NFUyA9IGNpZmFyMTBfaW5wdXQuTlVNX0NMQVNTRVMKTlVNX0VYQU1QTEVTX1BFUl9FUE9DSF9GT1JfVFJBSU4gPSBjaWZhcjEwX2lucHV0Lk5VTV9FWEFNUExFU19QRVJfRVBPQ0hfRk9SX1RSQUlOCk5VTV9FWEFNUExFU19QRVJfRVBPQ0hfRk9SX0VWQUwgPSBjaWZhcjEwX2lucHV0Lk5VTV9FWEFNUExFU19QRVJfRVBPQ0hfRk9SX0VWQUwKCgojIENvbnN0YW50cyBkZXNjcmliaW5nIHRoZSB0cmFpbmluZyBwcm9jZXNzLgpNT1ZJTkdfQVZFUkFHRV9ERUNBWSA9IDAuOTk5OSAgICAgIyBUaGUgZGVjYXkgdG8gdXNlIGZvciB0aGUgbW92aW5nIGF2ZXJhZ2UuCk5VTV9FUE9DSFNfUEVSX0RFQ0FZID0gMzUwLjAgICAgICAjIEVwb2NocyBhZnRlciB3aGljaCBsZWFybmluZyByYXRlIGRlY2F5cy4KTEVBUk5JTkdfUkFURV9ERUNBWV9GQUNUT1IgPSAwLjEgICMgTGVhcm5pbmcgcmF0ZSBkZWNheSBmYWN0b3IuCklOSVRJQUxfTEVBUk5JTkdfUkFURSA9IDAuMSAgICAgICAjIEluaXRpYWwgbGVhcm5pbmcgcmF0ZS4KCiMgSWYgYSBtb2RlbCBpcyB0cmFpbmVkIHdpdGggbXVsdGlwbGUgR1BVJ3MgcHJlZml4IGFsbCBPcCBuYW1lcyB3aXRoIHRvd2VyX25hbWUKIyB0byBkaWZmZXJlbnRpYXRlIHRoZSBvcGVyYXRpb25zLiBOb3RlIHRoYXQgdGhpcyBwcmVmaXggaXMgcmVtb3ZlZCBmcm9tIHRoZQojIG5hbWVzIG9mIHRoZSBzdW1tYXJpZXMgd2hlbiB2aXN1YWxpemluZyBhIG1vZGVsLgpUT1dFUl9OQU1FID0gJ3Rvd2VyJwoKREFUQV9VUkwgPSAnaHR0cDovL3d3dy5jcy50b3JvbnRvLmVkdS9+a3Jpei9jaWZhci0xMC1iaW5hcnkudGFyLmd6JwoKCmRlZiBfYWN0aXZhdGlvbl9zdW1tYXJ5KHgpOgogICIiIkhlbHBlciB0byBjcmVhdGUgc3VtbWFyaWVzIGZvciBhY3RpdmF0aW9ucy4KCiAgQ3JlYXRlcyBhIHN1bW1hcnkgdGhhdCBwcm92aWRlcyBhIGhpc3RvZ3JhbSBvZiBhY3RpdmF0aW9ucy4KICBDcmVhdGVzIGEgc3VtbWFyeSB0aGF0IG1lYXN1cmUgdGhlIHNwYXJzaXR5IG9mIGFjdGl2YXRpb25zLgoKICBBcmdzOgogICAgeDogVGVuc29yCiAgUmV0dXJuczoKICAgIG5vdGhpbmcKICAiIiIKICAjIFJlbW92ZSAndG93ZXJfWzAtOV0vJyBmcm9tIHRoZSBuYW1lIGluIGNhc2UgdGhpcyBpcyBhIG11bHRpLUdQVSB0cmFpbmluZwogICMgc2Vzc2lvbi4gVGhpcyBoZWxwcyB0aGUgY2xhcml0eSBvZiBwcmVzZW50YXRpb24gb24gdGVuc29yYm9hcmQuCiAgdGVuc29yX25hbWUgPSByZS5zdWIoJyVzX1swLTldKi8nICUgVE9XRVJfTkFNRSwgJycsIHgub3AubmFtZSkKICB0Zi5oaXN0b2dyYW1fc3VtbWFyeSh0ZW5zb3JfbmFtZSArICcvYWN0aXZhdGlvbnMnLCB4KQogIHRmLnNjYWxhcl9zdW1tYXJ5KHRlbnNvcl9uYW1lICsgJy9zcGFyc2l0eScsIHRmLm5uLnplcm9fZnJhY3Rpb24oeCkpCgoKZGVmIF92YXJpYWJsZV9vbl9jcHUobmFtZSwgc2hhcGUsIGluaXRpYWxpemVyKToKICAiIiJIZWxwZXIgdG8gY3JlYXRlIGEgVmFyaWFibGUgc3RvcmVkIG9uIENQVSBtZW1vcnkuCgogIEFyZ3M6CiAgICBuYW1lOiBuYW1lIG9mIHRoZSB2YXJpYWJsZQogICAgc2hhcGU6IGxpc3Qgb2YgaW50cwogICAgaW5pdGlhbGl6ZXI6IGluaXRpYWxpemVyIGZvciBWYXJpYWJsZQoKICBSZXR1cm5zOgogICAgVmFyaWFibGUgVGVuc29yCiAgIiIiCiAgd2l0aCB0Zi5kZXZpY2UoJy9jcHU6MCcpOgogICAgdmFyID0gdGYuZ2V0X3ZhcmlhYmxlKG5hbWUsIHNoYXBlLCBpbml0aWFsaXplcj1pbml0aWFsaXplcikKICByZXR1cm4gdmFyCgoKZGVmIF92YXJpYWJsZV93aXRoX3dlaWdodF9kZWNheShuYW1lLCBzaGFwZSwgc3RkZGV2LCB3ZCk6CiAgIiIiSGVscGVyIHRvIGNyZWF0ZSBhbiBpbml0aWFsaXplZCBWYXJpYWJsZSB3aXRoIHdlaWdodCBkZWNheS4KCiAgTm90ZSB0aGF0IHRoZSBWYXJpYWJsZSBpcyBpbml0aWFsaXplZCB3aXRoIGEgdHJ1bmNhdGVkIG5vcm1hbCBkaXN0cmlidXRpb24uCiAgQSB3ZWlnaHQgZGVjYXkgaXMgYWRkZWQgb25seSBpZiBvbmUgaXMgc3BlY2lmaWVkLgoKICBBcmdzOgogICAgbmFtZTogbmFtZSBvZiB0aGUgdmFyaWFibGUKICAgIHNoYXBlOiBsaXN0IG9mIGludHMKICAgIHN0ZGRldjogc3RhbmRhcmQgZGV2aWF0aW9uIG9mIGEgdHJ1bmNhdGVkIEdhdXNzaWFuCiAgICB3ZDogYWRkIEwyTG9zcyB3ZWlnaHQgZGVjYXkgbXVsdGlwbGllZCBieSB0aGlzIGZsb2F0LiBJZiBOb25lLCB3ZWlnaHQKICAgICAgICBkZWNheSBpcyBub3QgYWRkZWQgZm9yIHRoaXMgVmFyaWFibGUuCgogIFJldHVybnM6CiAgICBWYXJpYWJsZSBUZW5zb3IKICAiIiIKICB2YXIgPSBfdmFyaWFibGVfb25fY3B1KG5hbWUsIHNoYXBlLAogICAgICAgICAgICAgICAgICAgICAgICAgdGYudHJ1bmNhdGVkX25vcm1hbF9pbml0aWFsaXplcihzdGRkZXY9c3RkZGV2KSkKICBpZiB3ZDoKICAgIHdlaWdodF9kZWNheSA9IHRmLm11bCh0Zi5ubi5sMl9sb3NzKHZhciksIHdkLCBuYW1lPSd3ZWlnaHRfbG9zcycpCiAgICB0Zi5hZGRfdG9fY29sbGVjdGlvbignbG9zc2VzJywgd2VpZ2h0X2RlY2F5KQogIHJldHVybiB2YXIKCgpkZWYgZGlzdG9ydGVkX2lucHV0cygpOgogICIiIkNvbnN0cnVjdCBkaXN0b3J0ZWQgaW5wdXQgZm9yIENJRkFSIHRyYWluaW5nIHVzaW5nIHRoZSBSZWFkZXIgb3BzLgoKICBSZXR1cm5zOgogICAgaW1hZ2VzOiBJbWFnZXMuIDREIHRlbnNvciBvZiBbYmF0Y2hfc2l6ZSwgSU1BR0VfU0laRSwgSU1BR0VfU0laRSwgM10gc2l6ZS4KICAgIGxhYmVsczogTGFiZWxzLiAxRCB0ZW5zb3Igb2YgW2JhdGNoX3NpemVdIHNpemUuCgogIFJhaXNlczoKICAgIFZhbHVlRXJyb3I6IElmIG5vIGRhdGFfZGlyCiAgIiIiCiAgaWYgbm90IEZMQUdTLmRhdGFfZGlyOgogICAgcmFpc2UgVmFsdWVFcnJvcignUGxlYXNlIHN1cHBseSBhIGRhdGFfZGlyJykKICBkYXRhX2RpciA9IG9zLnBhdGguam9pbihGTEFHUy5kYXRhX2RpciwgJ2NpZmFyLTEwLWJhdGNoZXMtYmluJykKICByZXR1cm4gY2lmYXIxMF9pbnB1dC5kaXN0b3J0ZWRfaW5wdXRzKGRhdGFfZGlyPWRhdGFfZGlyLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZT1GTEFHUy5iYXRjaF9zaXplKQoKCmRlZiBpbnB1dHMoZXZhbF9kYXRhKToKICAiIiJDb25zdHJ1Y3QgaW5wdXQgZm9yIENJRkFSIGV2YWx1YXRpb24gdXNpbmcgdGhlIFJlYWRlciBvcHMuCgogIEFyZ3M6CiAgICBldmFsX2RhdGE6IGJvb2wsIGluZGljYXRpbmcgaWYgb25lIHNob3VsZCB1c2UgdGhlIHRyYWluIG9yIGV2YWwgZGF0YSBzZXQuCgogIFJldHVybnM6CiAgICBpbWFnZXM6IEltYWdlcy4gNEQgdGVuc29yIG9mIFtiYXRjaF9zaXplLCBJTUFHRV9TSVpFLCBJTUFHRV9TSVpFLCAzXSBzaXplLgogICAgbGFiZWxzOiBMYWJlbHMuIDFEIHRlbnNvciBvZiBbYmF0Y2hfc2l6ZV0gc2l6ZS4KCiAgUmFpc2VzOgogICAgVmFsdWVFcnJvcjogSWYgbm8gZGF0YV9kaXIKICAiIiIKICBpZiBub3QgRkxBR1MuZGF0YV9kaXI6CiAgICByYWlzZSBWYWx1ZUVycm9yKCdQbGVhc2Ugc3VwcGx5IGEgZGF0YV9kaXInKQogIGRhdGFfZGlyID0gb3MucGF0aC5qb2luKEZMQUdTLmRhdGFfZGlyLCAnY2lmYXItMTAtYmF0Y2hlcy1iaW4nKQogIHJldHVybiBjaWZhcjEwX2lucHV0LmlucHV0cyhldmFsX2RhdGE9ZXZhbF9kYXRhLCBkYXRhX2Rpcj1kYXRhX2RpciwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYmF0Y2hfc2l6ZT1GTEFHUy5iYXRjaF9zaXplKQoKCmRlZiBpbmZlcmVuY2UoaW1hZ2VzKToKICAiIiJCdWlsZCB0aGUgQ0lGQVItMTAgbW9kZWwuCgogIEFyZ3M6CiAgICBpbWFnZXM6IEltYWdlcyByZXR1cm5lZCBmcm9tIGRpc3RvcnRlZF9pbnB1dHMoKSBvciBpbnB1dHMoKS4KCiAgUmV0dXJuczoKICAgIExvZ2l0cy4KICAiIiIKICAjIFdlIGluc3RhbnRpYXRlIGFsbCB2YXJpYWJsZXMgdXNpbmcgdGYuZ2V0X3ZhcmlhYmxlKCkgaW5zdGVhZCBvZgogICMgdGYuVmFyaWFibGUoKSBpbiBvcmRlciB0byBzaGFyZSB2YXJpYWJsZXMgYWNyb3NzIG11bHRpcGxlIEdQVSB0cmFpbmluZyBydW5zLgogICMgSWYgd2Ugb25seSByYW4gdGhpcyBtb2RlbCBvbiBhIHNpbmdsZSBHUFUsIHdlIGNvdWxkIHNpbXBsaWZ5IHRoaXMgZnVuY3Rpb24KICAjIGJ5IHJlcGxhY2luZyBhbGwgaW5zdGFuY2VzIG9mIHRmLmdldF92YXJpYWJsZSgpIHdpdGggdGYuVmFyaWFibGUoKS4KICAjCiAgIyBjb252MQogIHdpdGggdGYudmFyaWFibGVfc2NvcGUoJ2NvbnYxJykgYXMgc2NvcGU6CiAgICBrZXJuZWwgPSBfdmFyaWFibGVfd2l0aF93ZWlnaHRfZGVjYXkoJ3dlaWdodHMnLCBzaGFwZT1bNSwgNSwgMywgNjRdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZGRldj0xZS00LCB3ZD0wLjApCiAgICBjb252ID0gdGYubm4uY29udjJkKGltYWdlcywga2VybmVsLCBbMSwgMSwgMSwgMV0sIHBhZGRpbmc9J1NBTUUnKQogICAgYmlhc2VzID0gX3ZhcmlhYmxlX29uX2NwdSgnYmlhc2VzJywgWzY0XSwgdGYuY29uc3RhbnRfaW5pdGlhbGl6ZXIoMC4wKSkKICAgIGJpYXMgPSB0Zi5ubi5iaWFzX2FkZChjb252LCBiaWFzZXMpCiAgICBjb252MSA9IHRmLm5uLnJlbHUoYmlhcywgbmFtZT1zY29wZS5uYW1lKQogICAgX2FjdGl2YXRpb25fc3VtbWFyeShjb252MSkKCiAgIyBwb29sMQogIHBvb2wxID0gdGYubm4ubWF4X3Bvb2woY29udjEsIGtzaXplPVsxLCAzLCAzLCAxXSwgc3RyaWRlcz1bMSwgMiwgMiwgMV0sCiAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nPSdTQU1FJywgbmFtZT0ncG9vbDEnKQogICMgbm9ybTEKICBub3JtMSA9IHRmLm5uLmxybihwb29sMSwgNCwgYmlhcz0xLjAsIGFscGhhPTAuMDAxIC8gOS4wLCBiZXRhPTAuNzUsCiAgICAgICAgICAgICAgICAgICAgbmFtZT0nbm9ybTEnKQoKICAjIGNvbnYyCiAgd2l0aCB0Zi52YXJpYWJsZV9zY29wZSgnY29udjInKSBhcyBzY29wZToKICAgIGtlcm5lbCA9IF92YXJpYWJsZV93aXRoX3dlaWdodF9kZWNheSgnd2VpZ2h0cycsIHNoYXBlPVs1LCA1LCA2NCwgNjRdLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZGRldj0xZS00LCB3ZD0wLjApCiAgICBjb252ID0gdGYubm4uY29udjJkKG5vcm0xLCBrZXJuZWwsIFsxLCAxLCAxLCAxXSwgcGFkZGluZz0nU0FNRScpCiAgICBiaWFzZXMgPSBfdmFyaWFibGVfb25fY3B1KCdiaWFzZXMnLCBbNjRdLCB0Zi5jb25zdGFudF9pbml0aWFsaXplcigwLjEpKQogICAgYmlhcyA9IHRmLm5uLmJpYXNfYWRkKGNvbnYsIGJpYXNlcykKICAgIGNvbnYyID0gdGYubm4ucmVsdShiaWFzLCBuYW1lPXNjb3BlLm5hbWUpCiAgICBfYWN0aXZhdGlvbl9zdW1tYXJ5KGNvbnYyKQoKICAjIG5vcm0yCiAgbm9ybTIgPSB0Zi5ubi5scm4oY29udjIsIDQsIGJpYXM9MS4wLCBhbHBoYT0wLjAwMSAvIDkuMCwgYmV0YT0wLjc1LAogICAgICAgICAgICAgICAgICAgIG5hbWU9J25vcm0yJykKICAjIHBvb2wyCiAgcG9vbDIgPSB0Zi5ubi5tYXhfcG9vbChub3JtMiwga3NpemU9WzEsIDMsIDMsIDFdLAogICAgICAgICAgICAgICAgICAgICAgICAgc3RyaWRlcz1bMSwgMiwgMiwgMV0sIHBhZGRpbmc9J1NBTUUnLCBuYW1lPSdwb29sMicpCgogICMgbG9jYWwzCiAgd2l0aCB0Zi52YXJpYWJsZV9zY29wZSgnbG9jYWwzJykgYXMgc2NvcGU6CiAgICAjIE1vdmUgZXZlcnl0aGluZyBpbnRvIGRlcHRoIHNvIHdlIGNhbiBwZXJmb3JtIGEgc2luZ2xlIG1hdHJpeCBtdWx0aXBseS4KICAgIGRpbSA9IDEKICAgIGZvciBkIGluIHBvb2wyLmdldF9zaGFwZSgpWzE6XS5hc19saXN0KCk6CiAgICAgIGRpbSAqPSBkCiAgICByZXNoYXBlID0gdGYucmVzaGFwZShwb29sMiwgW0ZMQUdTLmJhdGNoX3NpemUsIGRpbV0pCgogICAgd2VpZ2h0cyA9IF92YXJpYWJsZV93aXRoX3dlaWdodF9kZWNheSgnd2VpZ2h0cycsIHNoYXBlPVtkaW0sIDM4NF0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZGRldj0wLjA0LCB3ZD0wLjAwNCkKICAgIGJpYXNlcyA9IF92YXJpYWJsZV9vbl9jcHUoJ2JpYXNlcycsIFszODRdLCB0Zi5jb25zdGFudF9pbml0aWFsaXplcigwLjEpKQogICAgbG9jYWwzID0gdGYubm4ucmVsdSh0Zi5tYXRtdWwocmVzaGFwZSwgd2VpZ2h0cykgKyBiaWFzZXMsIG5hbWU9c2NvcGUubmFtZSkKICAgIF9hY3RpdmF0aW9uX3N1bW1hcnkobG9jYWwzKQoKICAjIGxvY2FsNAogIHdpdGggdGYudmFyaWFibGVfc2NvcGUoJ2xvY2FsNCcpIGFzIHNjb3BlOgogICAgd2VpZ2h0cyA9IF92YXJpYWJsZV93aXRoX3dlaWdodF9kZWNheSgnd2VpZ2h0cycsIHNoYXBlPVszODQsIDE5Ml0sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0ZGRldj0wLjA0LCB3ZD0wLjAwNCkKICAgIGJpYXNlcyA9IF92YXJpYWJsZV9vbl9jcHUoJ2JpYXNlcycsIFsxOTJdLCB0Zi5jb25zdGFudF9pbml0aWFsaXplcigwLjEpKQogICAgbG9jYWw0ID0gdGYubm4ucmVsdSh0Zi5tYXRtdWwobG9jYWwzLCB3ZWlnaHRzKSArIGJpYXNlcywgbmFtZT1zY29wZS5uYW1lKQogICAgX2FjdGl2YXRpb25fc3VtbWFyeShsb2NhbDQpCgogICMgc29mdG1heCwgaS5lLiBzb2Z0bWF4KFdYICsgYikKICB3aXRoIHRmLnZhcmlhYmxlX3Njb3BlKCdzb2Z0bWF4X2xpbmVhcicpIGFzIHNjb3BlOgogICAgd2VpZ2h0cyA9IF92YXJpYWJsZV93aXRoX3dlaWdodF9kZWNheSgnd2VpZ2h0cycsIFsxOTIsIE5VTV9DTEFTU0VTXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgc3RkZGV2PTEvMTkyLjAsIHdkPTAuMCkKICAgIGJpYXNlcyA9IF92YXJpYWJsZV9vbl9jcHUoJ2JpYXNlcycsIFtOVU1fQ0xBU1NFU10sCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRmLmNvbnN0YW50X2luaXRpYWxpemVyKDAuMCkpCiAgICBzb2Z0bWF4X2xpbmVhciA9IHRmLmFkZCh0Zi5tYXRtdWwobG9jYWw0LCB3ZWlnaHRzKSwgYmlhc2VzLCBuYW1lPXNjb3BlLm5hbWUpCiAgICBfYWN0aXZhdGlvbl9zdW1tYXJ5KHNvZnRtYXhfbGluZWFyKQoKICByZXR1cm4gc29mdG1heF9saW5lYXIKCgpkZWYgbG9zcyhsb2dpdHMsIGxhYmVscyk6CiAgIiIiQWRkIEwyTG9zcyB0byBhbGwgdGhlIHRyYWluYWJsZSB2YXJpYWJsZXMuCgogIEFkZCBzdW1tYXJ5IGZvciBmb3IgIkxvc3MiIGFuZCAiTG9zcy9hdmciLgogIEFyZ3M6CiAgICBsb2dpdHM6IExvZ2l0cyBmcm9tIGluZmVyZW5jZSgpLgogICAgbGFiZWxzOiBMYWJlbHMgZnJvbSBkaXN0b3J0ZWRfaW5wdXRzIG9yIGlucHV0cygpLiAxLUQgdGVuc29yCiAgICAgICAgICAgIG9mIHNoYXBlIFtiYXRjaF9zaXplXQoKICBSZXR1cm5zOgogICAgTG9zcyB0ZW5zb3Igb2YgdHlwZSBmbG9hdC4KICAiIiIKICAjIFJlc2hhcGUgdGhlIGxhYmVscyBpbnRvIGEgZGVuc2UgVGVuc29yIG9mCiAgIyBzaGFwZSBbYmF0Y2hfc2l6ZSwgTlVNX0NMQVNTRVNdLgogIHNwYXJzZV9sYWJlbHMgPSB0Zi5yZXNoYXBlKGxhYmVscywgW0ZMQUdTLmJhdGNoX3NpemUsIDFdKQogIGluZGljZXMgPSB0Zi5yZXNoYXBlKHRmLnJhbmdlKEZMQUdTLmJhdGNoX3NpemUpLCBbRkxBR1MuYmF0Y2hfc2l6ZSwgMV0pCiAgY29uY2F0ZWQgPSB0Zi5jb25jYXQoMSwgW2luZGljZXMsIHNwYXJzZV9sYWJlbHNdKQogIGRlbnNlX2xhYmVscyA9IHRmLnNwYXJzZV90b19kZW5zZShjb25jYXRlZCwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgW0ZMQUdTLmJhdGNoX3NpemUsIE5VTV9DTEFTU0VTXSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgMS4wLCAwLjApCgogICMgQ2FsY3VsYXRlIHRoZSBhdmVyYWdlIGNyb3NzIGVudHJvcHkgbG9zcyBhY3Jvc3MgdGhlIGJhdGNoLgogIGNyb3NzX2VudHJvcHkgPSB0Zi5ubi5zb2Z0bWF4X2Nyb3NzX2VudHJvcHlfd2l0aF9sb2dpdHMoCiAgICAgIGxvZ2l0cywgZGVuc2VfbGFiZWxzLCBuYW1lPSdjcm9zc19lbnRyb3B5X3Blcl9leGFtcGxlJykKICBjcm9zc19lbnRyb3B5X21lYW4gPSB0Zi5yZWR1Y2VfbWVhbihjcm9zc19lbnRyb3B5LCBuYW1lPSdjcm9zc19lbnRyb3B5JykKICB0Zi5hZGRfdG9fY29sbGVjdGlvbignbG9zc2VzJywgY3Jvc3NfZW50cm9weV9tZWFuKQoKICAjIFRoZSB0b3RhbCBsb3NzIGlzIGRlZmluZWQgYXMgdGhlIGNyb3NzIGVudHJvcHkgbG9zcyBwbHVzIGFsbCBvZiB0aGUgd2VpZ2h0CiAgIyBkZWNheSB0ZXJtcyAoTDIgbG9zcykuCiAgcmV0dXJuIHRmLmFkZF9uKHRmLmdldF9jb2xsZWN0aW9uKCdsb3NzZXMnKSwgbmFtZT0ndG90YWxfbG9zcycpCgoKZGVmIF9hZGRfbG9zc19zdW1tYXJpZXModG90YWxfbG9zcyk6CiAgIiIiQWRkIHN1bW1hcmllcyBmb3IgbG9zc2VzIGluIENJRkFSLTEwIG1vZGVsLgoKICBHZW5lcmF0ZXMgbW92aW5nIGF2ZXJhZ2UgZm9yIGFsbCBsb3NzZXMgYW5kIGFzc29jaWF0ZWQgc3VtbWFyaWVzIGZvcgogIHZpc3VhbGl6aW5nIHRoZSBwZXJmb3JtYW5jZSBvZiB0aGUgbmV0d29yay4KCiAgQXJnczoKICAgIHRvdGFsX2xvc3M6IFRvdGFsIGxvc3MgZnJvbSBsb3NzKCkuCiAgUmV0dXJuczoKICAgIGxvc3NfYXZlcmFnZXNfb3A6IG9wIGZvciBnZW5lcmF0aW5nIG1vdmluZyBhdmVyYWdlcyBvZiBsb3NzZXMuCiAgIiIiCiAgIyBDb21wdXRlIHRoZSBtb3ZpbmcgYXZlcmFnZSBvZiBhbGwgaW5kaXZpZHVhbCBsb3NzZXMgYW5kIHRoZSB0b3RhbCBsb3NzLgogIGxvc3NfYXZlcmFnZXMgPSB0Zi50cmFpbi5FeHBvbmVudGlhbE1vdmluZ0F2ZXJhZ2UoMC45LCBuYW1lPSdhdmcnKQogIGxvc3NlcyA9IHRmLmdldF9jb2xsZWN0aW9uKCdsb3NzZXMnKQogIGxvc3NfYXZlcmFnZXNfb3AgPSBsb3NzX2F2ZXJhZ2VzLmFwcGx5KGxvc3NlcyArIFt0b3RhbF9sb3NzXSkKCiAgIyBBdHRhY2ggYSBzY2FsYXIgc3VtbWFyeSB0byBhbGwgaW5kaXZpZHVhbCBsb3NzZXMgYW5kIHRoZSB0b3RhbCBsb3NzOyBkbyB0aGUKICAjIHNhbWUgZm9yIHRoZSBhdmVyYWdlZCB2ZXJzaW9uIG9mIHRoZSBsb3NzZXMuCiAgZm9yIGwgaW4gbG9zc2VzICsgW3RvdGFsX2xvc3NdOgogICAgIyBOYW1lIGVhY2ggbG9zcyBhcyAnKHJhdyknIGFuZCBuYW1lIHRoZSBtb3ZpbmcgYXZlcmFnZSB2ZXJzaW9uIG9mIHRoZSBsb3NzCiAgICAjIGFzIHRoZSBvcmlnaW5hbCBsb3NzIG5hbWUuCiAgICB0Zi5zY2FsYXJfc3VtbWFyeShsLm9wLm5hbWUgKycgKHJhdyknLCBsKQogICAgdGYuc2NhbGFyX3N1bW1hcnkobC5vcC5uYW1lLCBsb3NzX2F2ZXJhZ2VzLmF2ZXJhZ2UobCkpCgogIHJldHVybiBsb3NzX2F2ZXJhZ2VzX29wCgoKZGVmIHRyYWluKHRvdGFsX2xvc3MsIGdsb2JhbF9zdGVwKToKICAiIiJUcmFpbiBDSUZBUi0xMCBtb2RlbC4KCiAgQ3JlYXRlIGFuIG9wdGltaXplciBhbmQgYXBwbHkgdG8gYWxsIHRyYWluYWJsZSB2YXJpYWJsZXMuIEFkZCBtb3ZpbmcKICBhdmVyYWdlIGZvciBhbGwgdHJhaW5hYmxlIHZhcmlhYmxlcy4KCiAgQXJnczoKICAgIHRvdGFsX2xvc3M6IFRvdGFsIGxvc3MgZnJvbSBsb3NzKCkuCiAgICBnbG9iYWxfc3RlcDogSW50ZWdlciBWYXJpYWJsZSBjb3VudGluZyB0aGUgbnVtYmVyIG9mIHRyYWluaW5nIHN0ZXBzCiAgICAgIHByb2Nlc3NlZC4KICBSZXR1cm5zOgogICAgdHJhaW5fb3A6IG9wIGZvciB0cmFpbmluZy4KICAiIiIKICAjIFZhcmlhYmxlcyB0aGF0IGFmZmVjdCBsZWFybmluZyByYXRlLgogIG51bV9iYXRjaGVzX3Blcl9lcG9jaCA9IE5VTV9FWEFNUExFU19QRVJfRVBPQ0hfRk9SX1RSQUlOIC8gRkxBR1MuYmF0Y2hfc2l6ZQogIGRlY2F5X3N0ZXBzID0gaW50KG51bV9iYXRjaGVzX3Blcl9lcG9jaCAqIE5VTV9FUE9DSFNfUEVSX0RFQ0FZKQoKICAjIERlY2F5IHRoZSBsZWFybmluZyByYXRlIGV4cG9uZW50aWFsbHkgYmFzZWQgb24gdGhlIG51bWJlciBvZiBzdGVwcy4KICBsciA9IHRmLnRyYWluLmV4cG9uZW50aWFsX2RlY2F5KElOSVRJQUxfTEVBUk5JTkdfUkFURSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGdsb2JhbF9zdGVwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGVjYXlfc3RlcHMsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBMRUFSTklOR19SQVRFX0RFQ0FZX0ZBQ1RPUiwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHN0YWlyY2FzZT1UcnVlKQogIHRmLnNjYWxhcl9zdW1tYXJ5KCdsZWFybmluZ19yYXRlJywgbHIpCgogICMgR2VuZXJhdGUgbW92aW5nIGF2ZXJhZ2VzIG9mIGFsbCBsb3NzZXMgYW5kIGFzc29jaWF0ZWQgc3VtbWFyaWVzLgogIGxvc3NfYXZlcmFnZXNfb3AgPSBfYWRkX2xvc3Nfc3VtbWFyaWVzKHRvdGFsX2xvc3MpCgogICMgQ29tcHV0ZSBncmFkaWVudHMuCiAgd2l0aCB0Zi5jb250cm9sX2RlcGVuZGVuY2llcyhbbG9zc19hdmVyYWdlc19vcF0pOgogICAgb3B0ID0gdGYudHJhaW4uR3JhZGllbnREZXNjZW50T3B0aW1pemVyKGxyKQogICAgZ3JhZHMgPSBvcHQuY29tcHV0ZV9ncmFkaWVudHModG90YWxfbG9zcykKCiAgIyBBcHBseSBncmFkaWVudHMuCiAgYXBwbHlfZ3JhZGllbnRfb3AgPSBvcHQuYXBwbHlfZ3JhZGllbnRzKGdyYWRzLCBnbG9iYWxfc3RlcD1nbG9iYWxfc3RlcCkKCiAgIyBBZGQgaGlzdG9ncmFtcyBmb3IgdHJhaW5hYmxlIHZhcmlhYmxlcy4KICBmb3IgdmFyIGluIHRmLnRyYWluYWJsZV92YXJpYWJsZXMoKToKICAgIHRmLmhpc3RvZ3JhbV9zdW1tYXJ5KHZhci5vcC5uYW1lLCB2YXIpCgogICMgQWRkIGhpc3RvZ3JhbXMgZm9yIGdyYWRpZW50cy4KICBmb3IgZ3JhZCwgdmFyIGluIGdyYWRzOgogICAgaWYgZ3JhZDoKICAgICAgdGYuaGlzdG9ncmFtX3N1bW1hcnkodmFyLm9wLm5hbWUgKyAnL2dyYWRpZW50cycsIGdyYWQpCgogICMgVHJhY2sgdGhlIG1vdmluZyBhdmVyYWdlcyBvZiBhbGwgdHJhaW5hYmxlIHZhcmlhYmxlcy4KICB2YXJpYWJsZV9hdmVyYWdlcyA9IHRmLnRyYWluLkV4cG9uZW50aWFsTW92aW5nQXZlcmFnZSgKICAgICAgTU9WSU5HX0FWRVJBR0VfREVDQVksIGdsb2JhbF9zdGVwKQogIHZhcmlhYmxlc19hdmVyYWdlc19vcCA9IHZhcmlhYmxlX2F2ZXJhZ2VzLmFwcGx5KHRmLnRyYWluYWJsZV92YXJpYWJsZXMoKSkKCiAgd2l0aCB0Zi5jb250cm9sX2RlcGVuZGVuY2llcyhbYXBwbHlfZ3JhZGllbnRfb3AsIHZhcmlhYmxlc19hdmVyYWdlc19vcF0pOgogICAgdHJhaW5fb3AgPSB0Zi5ub19vcChuYW1lPSd0cmFpbicpCgogIHJldHVybiB0cmFpbl9vcAoKCmRlZiBtYXliZV9kb3dubG9hZF9hbmRfZXh0cmFjdCgpOgogICIiIkRvd25sb2FkIGFuZCBleHRyYWN0IHRoZSB0YXJiYWxsIGZyb20gQWxleCdzIHdlYnNpdGUuIiIiCiAgZGVzdF9kaXJlY3RvcnkgPSBGTEFHUy5kYXRhX2RpcgogIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhkZXN0X2RpcmVjdG9yeSk6CiAgICBvcy5tYWtlZGlycyhkZXN0X2RpcmVjdG9yeSkKICBmaWxlbmFtZSA9IERBVEFfVVJMLnNwbGl0KCcvJylbLTFdCiAgZmlsZXBhdGggPSBvcy5wYXRoLmpvaW4oZGVzdF9kaXJlY3RvcnksIGZpbGVuYW1lKQogIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhmaWxlcGF0aCk6CiAgICBkZWYgX3Byb2dyZXNzKGNvdW50LCBibG9ja19zaXplLCB0b3RhbF9zaXplKToKICAgICAgc3lzLnN0ZG91dC53cml0ZSgnXHI+PiBEb3dubG9hZGluZyAlcyAlLjFmJSUnICUgKGZpbGVuYW1lLAogICAgICAgICAgZmxvYXQoY291bnQgKiBibG9ja19zaXplKSAvIGZsb2F0KHRvdGFsX3NpemUpICogMTAwLjApKQogICAgICBzeXMuc3Rkb3V0LmZsdXNoKCkKICAgIGZpbGVwYXRoLCBfID0gdXJsbGliLnJlcXVlc3QudXJscmV0cmlldmUoREFUQV9VUkwsIGZpbGVwYXRoLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICByZXBvcnRob29rPV9wcm9ncmVzcykKICAgIHByaW50KCkKICAgIHN0YXRpbmZvID0gb3Muc3RhdChmaWxlcGF0aCkKICAgIHByaW50KCdTdWNjZXNzZnVsbHkgZG93bmxvYWRlZCcsIGZpbGVuYW1lLCBzdGF0aW5mby5zdF9zaXplLCAnYnl0ZXMuJykKICAgIHRhcmZpbGUub3BlbihmaWxlcGF0aCwgJ3I6Z3onKS5leHRyYWN0YWxsKGRlc3RfZGlyZWN0b3J5KQo=
+# Copyright 2015 Google Inc. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+"""Builds the CIFAR-10 network.
+Summary of available functions:
+ # Compute input images and labels for training. If you would like to run
+ # evaluations, use input() instead.
+ inputs, labels = distorted_inputs()
+ # Compute inference on the model inputs to make a prediction.
+ predictions = inference(inputs)
+ # Compute the total loss of the prediction with respect to the labels.
+ loss = loss(predictions, labels)
+ # Create a graph to run one step of training with respect to the loss.
+ train_op = train(loss, global_step)
+"""
+# pylint: disable=missing-docstring
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+import gzip
+import os
+import re
+import sys
+import tarfile
+import tensorflow.python.platform
+from six.moves import urllib
+import tensorflow as tf
+from tensorflow.models.image.cifar10 import cifar10_input
+FLAGS = tf.app.flags.FLAGS
+# Basic model parameters.
+tf.app.flags.DEFINE_integer('batch_size', 128,
+                            """Number of images to process in a batch.""")
+tf.app.flags.DEFINE_string('data_dir', '/tmp/cifar10_data',
+                           """Path to the CIFAR-10 data directory.""")
+# Global constants describing the CIFAR-10 data set.
+IMAGE_SIZE = cifar10_input.IMAGE_SIZE
+NUM_CLASSES = cifar10_input.NUM_CLASSES
+NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN = cifar10_input.NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN
+NUM_EXAMPLES_PER_EPOCH_FOR_EVAL = cifar10_input.NUM_EXAMPLES_PER_EPOCH_FOR_EVAL
+# Constants describing the training process.
+MOVING_AVERAGE_DECAY = 0.9999     # The decay to use for the moving average.
+NUM_EPOCHS_PER_DECAY = 350.0      # Epochs after which learning rate decays.
+LEARNING_RATE_DECAY_FACTOR = 0.1  # Learning rate decay factor.
+INITIAL_LEARNING_RATE = 0.1       # Initial learning rate.
+# If a model is trained with multiple GPU's prefix all Op names with tower_name
+# to differentiate the operations. Note that this prefix is removed from the
+# names of the summaries when visualizing a model.
+TOWER_NAME = 'tower'
+DATA_URL = 'http://www.cs.toronto.edu/~kriz/cifar-10-binary.tar.gz'
+def _activation_summary(x):
+  """Helper to create summaries for activations.
+  Creates a summary that provides a histogram of activations.
+  Creates a summary that measure the sparsity of activations.
+  Args:
+    x: Tensor
+  Returns:
+    nothing
+  """
+  # Remove 'tower_[0-9]/' from the name in case this is a multi-GPU training
+  # session. This helps the clarity of presentation on tensorboard.
+  tensor_name = re.sub('%s_[0-9]*/' % TOWER_NAME, '', x.op.name)
+  tf.histogram_summary(tensor_name + '/activations', x)
+  tf.scalar_summary(tensor_name + '/sparsity', tf.nn.zero_fraction(x))
+def _variable_on_cpu(name, shape, initializer):
+  """Helper to create a Variable stored on CPU memory.
+  Args:
+    name: name of the variable
+    shape: list of ints
+    initializer: initializer for Variable
+  Returns:
+    Variable Tensor
+  """
+  with tf.device('/cpu:0'):
+    var = tf.get_variable(name, shape, initializer=initializer)
+  return var
+def _variable_with_weight_decay(name, shape, stddev, wd):
+  """Helper to create an initialized Variable with weight decay.
+  Note that the Variable is initialized with a truncated normal distribution.
+  A weight decay is added only if one is specified.
+  Args:
+    name: name of the variable
+    shape: list of ints
+    stddev: standard deviation of a truncated Gaussian
+    wd: add L2Loss weight decay multiplied by this float. If None, weight
+        decay is not added for this Variable.
+  Returns:
+    Variable Tensor
+  """
+  var = _variable_on_cpu(name, shape,
+                         tf.truncated_normal_initializer(stddev=stddev))
+  if wd:
+    weight_decay = tf.mul(tf.nn.l2_loss(var), wd, name='weight_loss')
+    tf.add_to_collection('losses', weight_decay)
+  return var
+def distorted_inputs():
+  """Construct distorted input for CIFAR training using the Reader ops.
+  Returns:
+    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
+    labels: Labels. 1D tensor of [batch_size] size.
+  Raises:
+    ValueError: If no data_dir
+  """
+  if not FLAGS.data_dir:
+    raise ValueError('Please supply a data_dir')
+  data_dir = os.path.join(FLAGS.data_dir, 'cifar-10-batches-bin')
+  return cifar10_input.distorted_inputs(data_dir=data_dir,
+                                        batch_size=FLAGS.batch_size)
+def inputs(eval_data):
+  """Construct input for CIFAR evaluation using the Reader ops.
+  Args:
+    eval_data: bool, indicating if one should use the train or eval data set.
+  Returns:
+    images: Images. 4D tensor of [batch_size, IMAGE_SIZE, IMAGE_SIZE, 3] size.
+    labels: Labels. 1D tensor of [batch_size] size.
+  Raises:
+    ValueError: If no data_dir
+  """
+  if not FLAGS.data_dir:
+    raise ValueError('Please supply a data_dir')
+  data_dir = os.path.join(FLAGS.data_dir, 'cifar-10-batches-bin')
+  return cifar10_input.inputs(eval_data=eval_data, data_dir=data_dir,
+                              batch_size=FLAGS.batch_size)
+def inference(images):
+  """Build the CIFAR-10 model.
+  Args:
+    images: Images returned from distorted_inputs() or inputs().
+  Returns:
+    Logits.
+  """
+  # We instantiate all variables using tf.get_variable() instead of
+  # tf.Variable() in order to share variables across multiple GPU training runs.
+  # If we only ran this model on a single GPU, we could simplify this function
+  # by replacing all instances of tf.get_variable() with tf.Variable().
+  #
+  # conv1
+  with tf.variable_scope('conv1') as scope:
+    kernel = _variable_with_weight_decay('weights', shape=[5, 5, 3, 64],
+                                         stddev=1e-4, wd=0.0)
+    conv = tf.nn.conv2d(images, kernel, [1, 1, 1, 1], padding='SAME')
+    biases = _variable_on_cpu('biases', [64], tf.constant_initializer(0.0))
+    bias = tf.nn.bias_add(conv, biases)
+    conv1 = tf.nn.relu(bias, name=scope.name)
+    _activation_summary(conv1)
+  # pool1
+  pool1 = tf.nn.max_pool(conv1, ksize=[1, 3, 3, 1], strides=[1, 2, 2, 1],
+                         padding='SAME', name='pool1')
+  # norm1
+  norm1 = tf.nn.lrn(pool1, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
+                    name='norm1')
+  # conv2
+  with tf.variable_scope('conv2') as scope:
+    kernel = _variable_with_weight_decay('weights', shape=[5, 5, 64, 64],
+                                         stddev=1e-4, wd=0.0)
+    conv = tf.nn.conv2d(norm1, kernel, [1, 1, 1, 1], padding='SAME')
+    biases = _variable_on_cpu('biases', [64], tf.constant_initializer(0.1))
+    bias = tf.nn.bias_add(conv, biases)
+    conv2 = tf.nn.relu(bias, name=scope.name)
+    _activation_summary(conv2)
+  # norm2
+  norm2 = tf.nn.lrn(conv2, 4, bias=1.0, alpha=0.001 / 9.0, beta=0.75,
+                    name='norm2')
+  # pool2
+  pool2 = tf.nn.max_pool(norm2, ksize=[1, 3, 3, 1],
+                         strides=[1, 2, 2, 1], padding='SAME', name='pool2')
+  # local3
+  with tf.variable_scope('local3') as scope:
+    # Move everything into depth so we can perform a single matrix multiply.
+    dim = 1
+    for d in pool2.get_shape()[1:].as_list():
+      dim *= d
+    reshape = tf.reshape(pool2, [FLAGS.batch_size, dim])
+    weights = _variable_with_weight_decay('weights', shape=[dim, 384],
+                                          stddev=0.04, wd=0.004)
+    biases = _variable_on_cpu('biases', [384], tf.constant_initializer(0.1))
+    local3 = tf.nn.relu(tf.matmul(reshape, weights) + biases, name=scope.name)
+    _activation_summary(local3)
+  # local4
+  with tf.variable_scope('local4') as scope:
+    weights = _variable_with_weight_decay('weights', shape=[384, 192],
+                                          stddev=0.04, wd=0.004)
+    biases = _variable_on_cpu('biases', [192], tf.constant_initializer(0.1))
+    local4 = tf.nn.relu(tf.matmul(local3, weights) + biases, name=scope.name)
+    _activation_summary(local4)
+  # softmax, i.e. softmax(WX + b)
+  with tf.variable_scope('softmax_linear') as scope:
+    weights = _variable_with_weight_decay('weights', [192, NUM_CLASSES],
+                                          stddev=1/192.0, wd=0.0)
+    biases = _variable_on_cpu('biases', [NUM_CLASSES],
+                              tf.constant_initializer(0.0))
+    softmax_linear = tf.add(tf.matmul(local4, weights), biases, name=scope.name)
+    _activation_summary(softmax_linear)
+  return softmax_linear
+def loss(logits, labels):
+  """Add L2Loss to all the trainable variables.
+  Add summary for for "Loss" and "Loss/avg".
+  Args:
+    logits: Logits from inference().
+    labels: Labels from distorted_inputs or inputs(). 1-D tensor
+            of shape [batch_size]
+  Returns:
+    Loss tensor of type float.
+  """
+  # Reshape the labels into a dense Tensor of
+  # shape [batch_size, NUM_CLASSES].
+  sparse_labels = tf.reshape(labels, [FLAGS.batch_size, 1])
+  indices = tf.reshape(tf.range(FLAGS.batch_size), [FLAGS.batch_size, 1])
+  concated = tf.concat(1, [indices, sparse_labels])
+  dense_labels = tf.sparse_to_dense(concated,
+                                    [FLAGS.batch_size, NUM_CLASSES],
+                                    1.0, 0.0)
+  # Calculate the average cross entropy loss across the batch.
+  cross_entropy = tf.nn.softmax_cross_entropy_with_logits(
+      logits, dense_labels, name='cross_entropy_per_example')
+  cross_entropy_mean = tf.reduce_mean(cross_entropy, name='cross_entropy')
+  tf.add_to_collection('losses', cross_entropy_mean)
+  # The total loss is defined as the cross entropy loss plus all of the weight
+  # decay terms (L2 loss).
+  return tf.add_n(tf.get_collection('losses'), name='total_loss')
+def _add_loss_summaries(total_loss):
+  """Add summaries for losses in CIFAR-10 model.
+  Generates moving average for all losses and associated summaries for
+  visualizing the performance of the network.
+  Args:
+    total_loss: Total loss from loss().
+  Returns:
+    loss_averages_op: op for generating moving averages of losses.
+  """
+  # Compute the moving average of all individual losses and the total loss.
+  loss_averages = tf.train.ExponentialMovingAverage(0.9, name='avg')
+  losses = tf.get_collection('losses')
+  loss_averages_op = loss_averages.apply(losses + [total_loss])
+  # Attach a scalar summary to all individual losses and the total loss; do the
+  # same for the averaged version of the losses.
+  for l in losses + [total_loss]:
+    # Name each loss as '(raw)' and name the moving average version of the loss
+    # as the original loss name.
+    tf.scalar_summary(l.op.name +' (raw)', l)
+    tf.scalar_summary(l.op.name, loss_averages.average(l))
+  return loss_averages_op
+def train(total_loss, global_step):
+  """Train CIFAR-10 model.
+  Create an optimizer and apply to all trainable variables. Add moving
+  average for all trainable variables.
+  Args:
+    total_loss: Total loss from loss().
+    global_step: Integer Variable counting the number of training steps
+      processed.
+  Returns:
+    train_op: op for training.
+  """
+  # Variables that affect learning rate.
+  num_batches_per_epoch = NUM_EXAMPLES_PER_EPOCH_FOR_TRAIN / FLAGS.batch_size
+  decay_steps = int(num_batches_per_epoch * NUM_EPOCHS_PER_DECAY)
+  # Decay the learning rate exponentially based on the number of steps.
+  lr = tf.train.exponential_decay(INITIAL_LEARNING_RATE,
+                                  global_step,
+                                  decay_steps,
+                                  LEARNING_RATE_DECAY_FACTOR,
+                                  staircase=True)
+  tf.scalar_summary('learning_rate', lr)
+  # Generate moving averages of all losses and associated summaries.
+  loss_averages_op = _add_loss_summaries(total_loss)
+  # Compute gradients.
+  with tf.control_dependencies([loss_averages_op]):
+    opt = tf.train.GradientDescentOptimizer(lr)
+    grads = opt.compute_gradients(total_loss)
+  # Apply gradients.
+  apply_gradient_op = opt.apply_gradients(grads, global_step=global_step)
+  # Add histograms for trainable variables.
+  for var in tf.trainable_variables():
+    tf.histogram_summary(var.op.name, var)
+  # Add histograms for gradients.
+  for grad, var in grads:
+    if grad:
+      tf.histogram_summary(var.op.name + '/gradients', grad)
+  # Track the moving averages of all trainable variables.
+  variable_averages = tf.train.ExponentialMovingAverage(
+      MOVING_AVERAGE_DECAY, global_step)
+  variables_averages_op = variable_averages.apply(tf.trainable_variables())
+  with tf.control_dependencies([apply_gradient_op, variables_averages_op]):
+    train_op = tf.no_op(name='train')
+  return train_op
+def maybe_download_and_extract():
+  """Download and extract the tarball from Alex's website."""
+  dest_directory = FLAGS.data_dir
+  if not os.path.exists(dest_directory):
+    os.makedirs(dest_directory)
+  filename = DATA_URL.split('/')[-1]
+  filepath = os.path.join(dest_directory, filename)
+  if not os.path.exists(filepath):
+    def _progress(count, block_size, total_size):
+      sys.stdout.write('\r>> Downloading %s %.1f%%' % (filename,
+          float(count * block_size) / float(total_size) * 100.0))
+      sys.stdout.flush()
+    filepath, _ = urllib.request.urlretrieve(DATA_URL, filepath,
+                                             reporthook=_progress)
+    print()
+    statinfo = os.stat(filepath)
+    print('Successfully downloaded', filename, statinfo.st_size, 'bytes.')
+    tarfile.open(filepath, 'r:gz').extractall(dest_directory)

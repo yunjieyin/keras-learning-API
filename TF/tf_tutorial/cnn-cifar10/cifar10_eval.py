@@ -1,1 +1,131 @@
-IyBDb3B5cmlnaHQgMjAxNSBHb29nbGUgSW5jLiBBbGwgUmlnaHRzIFJlc2VydmVkLgojCiMgTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlICJMaWNlbnNlIik7CiMgeW91IG1heSBub3QgdXNlIHRoaXMgZmlsZSBleGNlcHQgaW4gY29tcGxpYW5jZSB3aXRoIHRoZSBMaWNlbnNlLgojIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdAojCiMgICAgIGh0dHA6Ly93d3cuYXBhY2hlLm9yZy9saWNlbnNlcy9MSUNFTlNFLTIuMAojCiMgVW5sZXNzIHJlcXVpcmVkIGJ5IGFwcGxpY2FibGUgbGF3IG9yIGFncmVlZCB0byBpbiB3cml0aW5nLCBzb2Z0d2FyZQojIGRpc3RyaWJ1dGVkIHVuZGVyIHRoZSBMaWNlbnNlIGlzIGRpc3RyaWJ1dGVkIG9uIGFuICJBUyBJUyIgQkFTSVMsCiMgV0lUSE9VVCBXQVJSQU5USUVTIE9SIENPTkRJVElPTlMgT0YgQU5ZIEtJTkQsIGVpdGhlciBleHByZXNzIG9yIGltcGxpZWQuCiMgU2VlIHRoZSBMaWNlbnNlIGZvciB0aGUgc3BlY2lmaWMgbGFuZ3VhZ2UgZ292ZXJuaW5nIHBlcm1pc3Npb25zIGFuZAojIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLgojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQoKIiIiRXZhbHVhdGlvbiBmb3IgQ0lGQVItMTAuCgpBY2N1cmFjeToKY2lmYXIxMF90cmFpbi5weSBhY2hpZXZlcyA4My4wJSBhY2N1cmFjeSBhZnRlciAxMDBLIHN0ZXBzICgyNTYgZXBvY2hzCm9mIGRhdGEpIGFzIGp1ZGdlZCBieSBjaWZhcjEwX2V2YWwucHkuCgpTcGVlZDoKT24gYSBzaW5nbGUgVGVzbGEgSzQwLCBjaWZhcjEwX3RyYWluLnB5IHByb2Nlc3NlcyBhIHNpbmdsZSBiYXRjaCBvZiAxMjggaW1hZ2VzCmluIDAuMjUtMC4zNSBzZWMgKGkuZS4gMzUwIC0gNjAwIGltYWdlcyAvc2VjKS4gVGhlIG1vZGVsIHJlYWNoZXMgfjg2JQphY2N1cmFjeSBhZnRlciAxMDBLIHN0ZXBzIGluIDggaG91cnMgb2YgdHJhaW5pbmcgdGltZS4KClVzYWdlOgpQbGVhc2Ugc2VlIHRoZSB0dXRvcmlhbCBhbmQgd2Vic2l0ZSBmb3IgaG93IHRvIGRvd25sb2FkIHRoZSBDSUZBUi0xMApkYXRhIHNldCwgY29tcGlsZSB0aGUgcHJvZ3JhbSBhbmQgdHJhaW4gdGhlIG1vZGVsLgoKaHR0cDovL3RlbnNvcmZsb3cub3JnL3R1dG9yaWFscy9kZWVwX2Nubi8KIiIiCmZyb20gX19mdXR1cmVfXyBpbXBvcnQgYWJzb2x1dGVfaW1wb3J0CmZyb20gX19mdXR1cmVfXyBpbXBvcnQgZGl2aXNpb24KZnJvbSBfX2Z1dHVyZV9fIGltcG9ydCBwcmludF9mdW5jdGlvbgoKZnJvbSBkYXRldGltZSBpbXBvcnQgZGF0ZXRpbWUKaW1wb3J0IG1hdGgKaW1wb3J0IHRpbWUKCmltcG9ydCB0ZW5zb3JmbG93LnB5dGhvbi5wbGF0Zm9ybQpmcm9tIHRlbnNvcmZsb3cucHl0aG9uLnBsYXRmb3JtIGltcG9ydCBnZmlsZQppbXBvcnQgbnVtcHkgYXMgbnAKaW1wb3J0IHRlbnNvcmZsb3cgYXMgdGYKCmZyb20gdGVuc29yZmxvdy5tb2RlbHMuaW1hZ2UuY2lmYXIxMCBpbXBvcnQgY2lmYXIxMAoKRkxBR1MgPSB0Zi5hcHAuZmxhZ3MuRkxBR1MKCnRmLmFwcC5mbGFncy5ERUZJTkVfc3RyaW5nKCdldmFsX2RpcicsICcvdG1wL2NpZmFyMTBfZXZhbCcsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICIiIkRpcmVjdG9yeSB3aGVyZSB0byB3cml0ZSBldmVudCBsb2dzLiIiIikKdGYuYXBwLmZsYWdzLkRFRklORV9zdHJpbmcoJ2V2YWxfZGF0YScsICd0ZXN0JywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIiRWl0aGVyICd0ZXN0JyBvciAndHJhaW5fZXZhbCcuIiIiKQp0Zi5hcHAuZmxhZ3MuREVGSU5FX3N0cmluZygnY2hlY2twb2ludF9kaXInLCAnL3RtcC9jaWZhcjEwX3RyYWluJywKICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIiRGlyZWN0b3J5IHdoZXJlIHRvIHJlYWQgbW9kZWwgY2hlY2twb2ludHMuIiIiKQp0Zi5hcHAuZmxhZ3MuREVGSU5FX2ludGVnZXIoJ2V2YWxfaW50ZXJ2YWxfc2VjcycsIDYwICogNSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICIiIkhvdyBvZnRlbiB0byBydW4gdGhlIGV2YWwuIiIiKQp0Zi5hcHAuZmxhZ3MuREVGSU5FX2ludGVnZXIoJ251bV9leGFtcGxlcycsIDEwMDAwLAogICAgICAgICAgICAgICAgICAgICAgICAgICAgIiIiTnVtYmVyIG9mIGV4YW1wbGVzIHRvIHJ1bi4iIiIpCnRmLmFwcC5mbGFncy5ERUZJTkVfYm9vbGVhbigncnVuX29uY2UnLCBGYWxzZSwKICAgICAgICAgICAgICAgICAgICAgICAgICIiIldoZXRoZXIgdG8gcnVuIGV2YWwgb25seSBvbmNlLiIiIikKCgpkZWYgZXZhbF9vbmNlKHNhdmVyLCBzdW1tYXJ5X3dyaXRlciwgdG9wX2tfb3AsIHN1bW1hcnlfb3ApOgogICIiIlJ1biBFdmFsIG9uY2UuCgogIEFyZ3M6CiAgICBzYXZlcjogU2F2ZXIuCiAgICBzdW1tYXJ5X3dyaXRlcjogU3VtbWFyeSB3cml0ZXIuCiAgICB0b3Bfa19vcDogVG9wIEsgb3AuCiAgICBzdW1tYXJ5X29wOiBTdW1tYXJ5IG9wLgogICIiIgogIHdpdGggdGYuU2Vzc2lvbigpIGFzIHNlc3M6CiAgICBja3B0ID0gdGYudHJhaW4uZ2V0X2NoZWNrcG9pbnRfc3RhdGUoRkxBR1MuY2hlY2twb2ludF9kaXIpCiAgICBpZiBja3B0IGFuZCBja3B0Lm1vZGVsX2NoZWNrcG9pbnRfcGF0aDoKICAgICAgIyBSZXN0b3JlcyBmcm9tIGNoZWNrcG9pbnQKICAgICAgc2F2ZXIucmVzdG9yZShzZXNzLCBja3B0Lm1vZGVsX2NoZWNrcG9pbnRfcGF0aCkKICAgICAgIyBBc3N1bWluZyBtb2RlbF9jaGVja3BvaW50X3BhdGggbG9va3Mgc29tZXRoaW5nIGxpa2U6CiAgICAgICMgICAvbXktZmF2b3JpdGUtcGF0aC9jaWZhcjEwX3RyYWluL21vZGVsLmNrcHQtMCwKICAgICAgIyBleHRyYWN0IGdsb2JhbF9zdGVwIGZyb20gaXQuCiAgICAgIGdsb2JhbF9zdGVwID0gY2twdC5tb2RlbF9jaGVja3BvaW50X3BhdGguc3BsaXQoJy8nKVstMV0uc3BsaXQoJy0nKVstMV0KICAgIGVsc2U6CiAgICAgIHByaW50KCdObyBjaGVja3BvaW50IGZpbGUgZm91bmQnKQogICAgICByZXR1cm4KCiAgICAjIFN0YXJ0IHRoZSBxdWV1ZSBydW5uZXJzLgogICAgY29vcmQgPSB0Zi50cmFpbi5Db29yZGluYXRvcigpCiAgICB0cnk6CiAgICAgIHRocmVhZHMgPSBbXQogICAgICBmb3IgcXIgaW4gdGYuZ2V0X2NvbGxlY3Rpb24odGYuR3JhcGhLZXlzLlFVRVVFX1JVTk5FUlMpOgogICAgICAgIHRocmVhZHMuZXh0ZW5kKHFyLmNyZWF0ZV90aHJlYWRzKHNlc3MsIGNvb3JkPWNvb3JkLCBkYWVtb249VHJ1ZSwKICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzdGFydD1UcnVlKSkKCiAgICAgIG51bV9pdGVyID0gaW50KG1hdGguY2VpbChGTEFHUy5udW1fZXhhbXBsZXMgLyBGTEFHUy5iYXRjaF9zaXplKSkKICAgICAgdHJ1ZV9jb3VudCA9IDAgICMgQ291bnRzIHRoZSBudW1iZXIgb2YgY29ycmVjdCBwcmVkaWN0aW9ucy4KICAgICAgdG90YWxfc2FtcGxlX2NvdW50ID0gbnVtX2l0ZXIgKiBGTEFHUy5iYXRjaF9zaXplCiAgICAgIHN0ZXAgPSAwCiAgICAgIHdoaWxlIHN0ZXAgPCBudW1faXRlciBhbmQgbm90IGNvb3JkLnNob3VsZF9zdG9wKCk6CiAgICAgICAgcHJlZGljdGlvbnMgPSBzZXNzLnJ1bihbdG9wX2tfb3BdKQogICAgICAgIHRydWVfY291bnQgKz0gbnAuc3VtKHByZWRpY3Rpb25zKQogICAgICAgIHN0ZXAgKz0gMQoKICAgICAgIyBDb21wdXRlIHByZWNpc2lvbiBAIDEuCiAgICAgIHByZWNpc2lvbiA9IHRydWVfY291bnQgLyB0b3RhbF9zYW1wbGVfY291bnQKICAgICAgcHJpbnQoJyVzOiBwcmVjaXNpb24gQCAxID0gJS4zZicgJSAoZGF0ZXRpbWUubm93KCksIHByZWNpc2lvbikpCgogICAgICBzdW1tYXJ5ID0gdGYuU3VtbWFyeSgpCiAgICAgIHN1bW1hcnkuUGFyc2VGcm9tU3RyaW5nKHNlc3MucnVuKHN1bW1hcnlfb3ApKQogICAgICBzdW1tYXJ5LnZhbHVlLmFkZCh0YWc9J1ByZWNpc2lvbiBAIDEnLCBzaW1wbGVfdmFsdWU9cHJlY2lzaW9uKQogICAgICBzdW1tYXJ5X3dyaXRlci5hZGRfc3VtbWFyeShzdW1tYXJ5LCBnbG9iYWxfc3RlcCkKICAgIGV4Y2VwdCBFeGNlcHRpb24gYXMgZTogICMgcHlsaW50OiBkaXNhYmxlPWJyb2FkLWV4Y2VwdAogICAgICBjb29yZC5yZXF1ZXN0X3N0b3AoZSkKCiAgICBjb29yZC5yZXF1ZXN0X3N0b3AoKQogICAgY29vcmQuam9pbih0aHJlYWRzLCBzdG9wX2dyYWNlX3BlcmlvZF9zZWNzPTEwKQoKCmRlZiBldmFsdWF0ZSgpOgogICIiIkV2YWwgQ0lGQVItMTAgZm9yIGEgbnVtYmVyIG9mIHN0ZXBzLiIiIgogIHdpdGggdGYuR3JhcGgoKS5hc19kZWZhdWx0KCk6CiAgICAjIEdldCBpbWFnZXMgYW5kIGxhYmVscyBmb3IgQ0lGQVItMTAuCiAgICBldmFsX2RhdGEgPSBGTEFHUy5ldmFsX2RhdGEgPT0gJ3Rlc3QnCiAgICBpbWFnZXMsIGxhYmVscyA9IGNpZmFyMTAuaW5wdXRzKGV2YWxfZGF0YT1ldmFsX2RhdGEpCgogICAgIyBCdWlsZCBhIEdyYXBoIHRoYXQgY29tcHV0ZXMgdGhlIGxvZ2l0cyBwcmVkaWN0aW9ucyBmcm9tIHRoZQogICAgIyBpbmZlcmVuY2UgbW9kZWwuCiAgICBsb2dpdHMgPSBjaWZhcjEwLmluZmVyZW5jZShpbWFnZXMpCgogICAgIyBDYWxjdWxhdGUgcHJlZGljdGlvbnMuCiAgICB0b3Bfa19vcCA9IHRmLm5uLmluX3RvcF9rKGxvZ2l0cywgbGFiZWxzLCAxKQoKICAgICMgUmVzdG9yZSB0aGUgbW92aW5nIGF2ZXJhZ2UgdmVyc2lvbiBvZiB0aGUgbGVhcm5lZCB2YXJpYWJsZXMgZm9yIGV2YWwuCiAgICB2YXJpYWJsZV9hdmVyYWdlcyA9IHRmLnRyYWluLkV4cG9uZW50aWFsTW92aW5nQXZlcmFnZSgKICAgICAgICBjaWZhcjEwLk1PVklOR19BVkVSQUdFX0RFQ0FZKQogICAgdmFyaWFibGVzX3RvX3Jlc3RvcmUgPSB2YXJpYWJsZV9hdmVyYWdlcy52YXJpYWJsZXNfdG9fcmVzdG9yZSgpCiAgICBzYXZlciA9IHRmLnRyYWluLlNhdmVyKHZhcmlhYmxlc190b19yZXN0b3JlKQoKICAgICMgQnVpbGQgdGhlIHN1bW1hcnkgb3BlcmF0aW9uIGJhc2VkIG9uIHRoZSBURiBjb2xsZWN0aW9uIG9mIFN1bW1hcmllcy4KICAgIHN1bW1hcnlfb3AgPSB0Zi5tZXJnZV9hbGxfc3VtbWFyaWVzKCkKCiAgICBncmFwaF9kZWYgPSB0Zi5nZXRfZGVmYXVsdF9ncmFwaCgpLmFzX2dyYXBoX2RlZigpCiAgICBzdW1tYXJ5X3dyaXRlciA9IHRmLnRyYWluLlN1bW1hcnlXcml0ZXIoRkxBR1MuZXZhbF9kaXIsCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JhcGhfZGVmPWdyYXBoX2RlZikKCiAgICB3aGlsZSBUcnVlOgogICAgICBldmFsX29uY2Uoc2F2ZXIsIHN1bW1hcnlfd3JpdGVyLCB0b3Bfa19vcCwgc3VtbWFyeV9vcCkKICAgICAgaWYgRkxBR1MucnVuX29uY2U6CiAgICAgICAgYnJlYWsKICAgICAgdGltZS5zbGVlcChGTEFHUy5ldmFsX2ludGVydmFsX3NlY3MpCgoKZGVmIG1haW4oYXJndj1Ob25lKTogICMgcHlsaW50OiBkaXNhYmxlPXVudXNlZC1hcmd1bWVudAogIGNpZmFyMTAubWF5YmVfZG93bmxvYWRfYW5kX2V4dHJhY3QoKQogIGlmIGdmaWxlLkV4aXN0cyhGTEFHUy5ldmFsX2Rpcik6CiAgICBnZmlsZS5EZWxldGVSZWN1cnNpdmVseShGTEFHUy5ldmFsX2RpcikKICBnZmlsZS5NYWtlRGlycyhGTEFHUy5ldmFsX2RpcikKICBldmFsdWF0ZSgpCgoKaWYgX19uYW1lX18gPT0gJ19fbWFpbl9fJzoKICB0Zi5hcHAucnVuKCkK
+# Copyright 2015 Google Inc. All Rights Reserved.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# ==============================================================================
+"""Evaluation for CIFAR-10.
+Accuracy:
+cifar10_train.py achieves 83.0% accuracy after 100K steps (256 epochs
+of data) as judged by cifar10_eval.py.
+Speed:
+On a single Tesla K40, cifar10_train.py processes a single batch of 128 images
+in 0.25-0.35 sec (i.e. 350 - 600 images /sec). The model reaches ~86%
+accuracy after 100K steps in 8 hours of training time.
+Usage:
+Please see the tutorial and website for how to download the CIFAR-10
+data set, compile the program and train the model.
+http://tensorflow.org/tutorials/deep_cnn/
+"""
+from __future__ import absolute_import
+from __future__ import division
+from __future__ import print_function
+from datetime import datetime
+import math
+import time
+import tensorflow.python.platform
+from tensorflow.python.platform import gfile
+import numpy as np
+import tensorflow as tf
+from tensorflow.models.image.cifar10 import cifar10
+FLAGS = tf.app.flags.FLAGS
+tf.app.flags.DEFINE_string('eval_dir', '/tmp/cifar10_eval',
+                           """Directory where to write event logs.""")
+tf.app.flags.DEFINE_string('eval_data', 'test',
+                           """Either 'test' or 'train_eval'.""")
+tf.app.flags.DEFINE_string('checkpoint_dir', '/tmp/cifar10_train',
+                           """Directory where to read model checkpoints.""")
+tf.app.flags.DEFINE_integer('eval_interval_secs', 60 * 5,
+                            """How often to run the eval.""")
+tf.app.flags.DEFINE_integer('num_examples', 10000,
+                            """Number of examples to run.""")
+tf.app.flags.DEFINE_boolean('run_once', False,
+                         """Whether to run eval only once.""")
+def eval_once(saver, summary_writer, top_k_op, summary_op):
+  """Run Eval once.
+  Args:
+    saver: Saver.
+    summary_writer: Summary writer.
+    top_k_op: Top K op.
+    summary_op: Summary op.
+  """
+  with tf.Session() as sess:
+    ckpt = tf.train.get_checkpoint_state(FLAGS.checkpoint_dir)
+    if ckpt and ckpt.model_checkpoint_path:
+      # Restores from checkpoint
+      saver.restore(sess, ckpt.model_checkpoint_path)
+      # Assuming model_checkpoint_path looks something like:
+      #   /my-favorite-path/cifar10_train/model.ckpt-0,
+      # extract global_step from it.
+      global_step = ckpt.model_checkpoint_path.split('/')[-1].split('-')[-1]
+    else:
+      print('No checkpoint file found')
+      return
+    # Start the queue runners.
+    coord = tf.train.Coordinator()
+    try:
+      threads = []
+      for qr in tf.get_collection(tf.GraphKeys.QUEUE_RUNNERS):
+        threads.extend(qr.create_threads(sess, coord=coord, daemon=True,
+                                         start=True))
+      num_iter = int(math.ceil(FLAGS.num_examples / FLAGS.batch_size))
+      true_count = 0  # Counts the number of correct predictions.
+      total_sample_count = num_iter * FLAGS.batch_size
+      step = 0
+      while step < num_iter and not coord.should_stop():
+        predictions = sess.run([top_k_op])
+        true_count += np.sum(predictions)
+        step += 1
+      # Compute precision @ 1.
+      precision = true_count / total_sample_count
+      print('%s: precision @ 1 = %.3f' % (datetime.now(), precision))
+      summary = tf.Summary()
+      summary.ParseFromString(sess.run(summary_op))
+      summary.value.add(tag='Precision @ 1', simple_value=precision)
+      summary_writer.add_summary(summary, global_step)
+    except Exception as e:  # pylint: disable=broad-except
+      coord.request_stop(e)
+    coord.request_stop()
+    coord.join(threads, stop_grace_period_secs=10)
+def evaluate():
+  """Eval CIFAR-10 for a number of steps."""
+  with tf.Graph().as_default():
+    # Get images and labels for CIFAR-10.
+    eval_data = FLAGS.eval_data == 'test'
+    images, labels = cifar10.inputs(eval_data=eval_data)
+    # Build a Graph that computes the logits predictions from the
+    # inference model.
+    logits = cifar10.inference(images)
+    # Calculate predictions.
+    top_k_op = tf.nn.in_top_k(logits, labels, 1)
+    # Restore the moving average version of the learned variables for eval.
+    variable_averages = tf.train.ExponentialMovingAverage(
+        cifar10.MOVING_AVERAGE_DECAY)
+    variables_to_restore = variable_averages.variables_to_restore()
+    saver = tf.train.Saver(variables_to_restore)
+    # Build the summary operation based on the TF collection of Summaries.
+    summary_op = tf.merge_all_summaries()
+    graph_def = tf.get_default_graph().as_graph_def()
+    summary_writer = tf.train.SummaryWriter(FLAGS.eval_dir,
+                                            graph_def=graph_def)
+    while True:
+      eval_once(saver, summary_writer, top_k_op, summary_op)
+      if FLAGS.run_once:
+        break
+      time.sleep(FLAGS.eval_interval_secs)
+def main(argv=None):  # pylint: disable=unused-argument
+  cifar10.maybe_download_and_extract()
+  if gfile.Exists(FLAGS.eval_dir):
+    gfile.DeleteRecursively(FLAGS.eval_dir)
+  gfile.MakeDirs(FLAGS.eval_dir)
+  evaluate()
+if __name__ == '__main__':
+  tf.app.run()
