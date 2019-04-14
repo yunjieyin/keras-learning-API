@@ -35,7 +35,8 @@ import tensorflow.python.platform
 from tensorflow.python.platform import gfile
 import numpy as np
 import tensorflow as tf
-from tensorflow.models.image.cifar10 import cifar10
+#from tensorflow.models.image.cifar10 import cifar10
+from TF.tf_tutorial.cnn_cifar10 import cifar10
 FLAGS = tf.app.flags.FLAGS
 tf.app.flags.DEFINE_string('eval_dir', '/tmp/cifar10_eval',
                            """Directory where to write event logs.""")
@@ -74,8 +75,7 @@ def eval_once(saver, summary_writer, top_k_op, summary_op):
     try:
       threads = []
       for qr in tf.get_collection(tf.GraphKeys.QUEUE_RUNNERS):
-        threads.extend(qr.create_threads(sess, coord=coord, daemon=True,
-                                         start=True))
+        threads.extend(qr.create_threads(sess, coord=coord, daemon=True, start=True))
       num_iter = int(math.ceil(FLAGS.num_examples / FLAGS.batch_size))
       true_count = 0  # Counts the number of correct predictions.
       total_sample_count = num_iter * FLAGS.batch_size

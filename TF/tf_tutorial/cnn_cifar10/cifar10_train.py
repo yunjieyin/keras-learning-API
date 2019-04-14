@@ -39,7 +39,7 @@ from six.moves import xrange  # pylint: disable=redefined-builtin
 import tensorflow as tf
 from TF.tf_tutorial.cnn_cifar10 import cifar10
 FLAGS = tf.app.flags.FLAGS
-tf.app.flags.DEFINE_string('train_dir', 'F:\dataSets\Tain\cifar10',
+tf.app.flags.DEFINE_string('train_dir', 'F:\dataSets\Train\cifar10',
                            """Directory where to write event logs """
                            """and checkpoint.""")
 tf.app.flags.DEFINE_integer('max_steps', 1000000,

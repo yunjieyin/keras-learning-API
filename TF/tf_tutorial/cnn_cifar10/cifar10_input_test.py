@@ -19,7 +19,8 @@ from __future__ import print_function
 import os
 import tensorflow.python.platform
 import tensorflow as tf
-from tensorflow.models.image.cifar10 import cifar10_input
+#from tensorflow.models.image.cifar10 import cifar10_input
+from TF.tf_tutorial.cnn_cifar10.cifar10 import cifar10_input
 class CIFAR10InputTest(tf.test.TestCase):
   def _record(self, label, red, green, blue):
     image_size = 32 * 32
